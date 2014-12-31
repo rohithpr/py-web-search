@@ -10,7 +10,7 @@ A Python module to fetch and parse results from different search engines.
 
 ## Installation
 
-
+Needs Python3.
 
 ## Usage
 
