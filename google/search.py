@@ -35,7 +35,7 @@ def generate_url(query, num, start):
     A url in the required format is generated.
     """
     url = '+'.join(query.split())
-    url = 'https://www.google.com/search?q=' + temp + '&num=' + num + '&start=' + start
+    url = 'https://www.google.com/search?q=' + query + '&num=' + num + '&start=' + start
     return url
 
 def try_cast_int(s):
@@ -57,8 +57,8 @@ def try_cast_int(s):
 class Google:
     @staticmethod
     def search(query, num=10, start=0):
-        url = generate_query_string(query, str(num), str(start))
-        soup = BeautifulSoup(requests.get(query).text)
+        url = generate_url(query, str(num), str(start))
+        soup = BeautifulSoup(requests.get(url).text)
         # print(soup.prettify())
         results = Google.scrape_search_result(soup)
 
@@ -67,6 +67,7 @@ class Google:
                 'num' : num,
                 'start' : start,
         }
+        return temp
 
     @staticmethod
     def scrape_search_result(soup):
