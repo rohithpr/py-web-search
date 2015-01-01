@@ -10,5 +10,11 @@ setup(
     url='https://github.com/rohithpr/py-web-search',
     download_url = 'https://github.com/peterldowns/mypackage/tarball/0.1',
     keywords = ['web search', 'web scraping'],
-    classifiers=[],
+    classifiers=['Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'License :: OSI Approved :: MIT License',
+    'Intended Audience :: Developers',
+    'Intended Audience :: End Users/Desktop',
+    'Intended Audience :: Information Technology',
+    'Intended Audience :: Science/Research'],
 )
