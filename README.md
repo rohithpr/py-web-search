@@ -25,6 +25,7 @@ Prints 5 results from the the third result onwards (ignores the first two) in th
         'url': '...',
         'num': 5,
         'start': 2,
+        'search_engine': 'google',
         'results':
         [
             {
