@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:web="http://schemas.live.com/Web/">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+  <script type="text/javascript">
+   //<![CDATA[
+si_ST=new Date
+//]]>
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+window.onerror||(window.onerror=function(n,t,i){var r="";r=typeof n=="object"&&n.srcElement&&n.srcElement.src?"\"ScriptSrc = '"+escape(n.srcElement.src.replace(/'/g,""))+"'\"":'"'+escape(n.replace(/"/g,""))+'","Meta":"'+escape(t)+'","Line":'+i,(new Image).src=_G.lsUrl+'&Type=Event.ClientInst&DATA=[{"T":"CI.Error","FID":"CI","Name":"JSError","Text":'+r+"}]",typeof sj_evt!="undefined"&&sj_evt.fire("ErrorInstrumentation",r)});_G={ST:(si_ST?si_ST:new Date),Mkt:"en-US",RTL:false,Ver:"9_00_0_3568181",IG:"a99cd1c372a0492c97bf978d52810f73",EventID:"73237744d17f44d798cafb6f0703f7ec",V:"web",P:"SERP",DA:"HK2",CID:"1A816E7850ED6B1E14BA695A51506A66",SUIH:"amsUvJ_8iNzZGomVnzJt5g",gpUrl:"\/fd\/ls\/GLinkPing.aspx?"};_G.lsUrl="/fd/ls/l?IG="+_G.IG+"&CID="+_G.CID;curUrl="http:\/\/www.bing.com\/search";function si_T(a){if(document.images){_G.GPImg=new Image;_G.GPImg.src=_G.gpUrl+'IG='+_G.IG+'&CID='+_G.CID+'&'+a;}return true;};
+//]]>
+  </script>
+  <style type="text/css">
+   .sw_ddbl,.sw_ddbk,.sw_ddw,.sw_ddgy,.sw_ddgn,.sw_poi,.sw_poia,.sw_play,.sw_playh,.sw_playa,.sw_playd,.sw_playp,.sw_st,.sw_sth,.sw_ste,.sw_st2,.sw_sth2,.sw_plus,.sw_minus,.sw_tpcg,.sw_tpcbl,.sw_tpcw,.sw_tpcbk,.sw_arw,.sw_arwh,.sb_pagN,.sb_pagP,.sw_up,.sw_down,.b_expandToggle,.sw_calc,.sw_fbi,.sw_twi,.sw_fbarw,.sw_fbtmb,.sw_twr,.sw_twrt,.sw_twf,.b_fLogo,.b_cm,.sw_rmore,.sw_tpo,.sw_tpoa,.sw_tpoh{background-image:url(/sa/simg/sw_mg_l_4d_lg.png);background-repeat:no-repeat}.sw_play,.sw_playh,.sw_playa,.sw_playd,.sw_playp{background-position:-315px -22px;height:16px;width:16px}.sw_playh,.sw_playa{background-position:-333px -22px}.sw_playd{background-position:-351px -22px}.sw_playp{background-position:-369px -22px}.sw_st,.sw_sth,.sw_ste,.sw_st2,.sw_sth2{background-position:-535px -31px;height:12px;width:12px;display:inline-block}.sw_st2{background-position:-563px -31px}.sw_sth{background-position:-577px -31px}.sw_sth2{background-position:-591px -31px}.sw_ste{background-position:-549px -31px}.sw_arw,.sw_arwh,.ccmc:hover .sw_arwh{background-position:-463px -32px;height:11px;width:14px}.sw_arwh,.ccmc:active .sw_arwh{background-position:-447px -32px}.sw_ddbl,.sw_ddbk,.sw_ddw,.sw_ddgy,.sw_ddgn{background-position:-266px -32px;height:4px;width:7px}.sw_ddgn{background-position:-256px -32px}.sw_tpcg,.sw_tpcbl,.sw_tpcw,.sw_tpcbk{background-position:-176px -32px;height:10px;width:10px}.sw_tpcg:hover,.sw_tpcg:active,.sw_tpcg:focus,.sw_tpcbl{background-position:-188px -32px}.sw_plus{background-position:-276px -32px;height:8px;width:8px}.sw_plus:hover,.sw_plus:active,.sw_plus:focus{background-position:-286px -32px}.sw_minus{background-position:-256px -38px;height:2px;width:8px}.sw_minus:hover,.sw_minus:active,.sw_minus:focus{background-position:-266px -38px}.sb_pagP,.sb_pagN{background-position:-233px 0;height:30px;width:30px}.sb_pagP:hover,.sb_pagP:active,.sb_pagP:focus{background-position:-265px 0}.sb_pagN{background-position:-169px 0}.sb_pagN:hover,.sb_pagN:active,.sb_pagN:focus{background-position:-201px 0}.b_expandToggle,.sw_up,.sw_down{background-position:-228px -32px;height:8px;width:12px}.b_active .b_expandToggle,.sw_up{background-position:-200px -32px}*:active>.b_active .b_expandToggle,*:hover>.sw_up,*:active>.sw_up,*:focus>.sw_up{background-position:-214px -32px}*:active>.b_expandToggle,*:hover>.sw_down,*:active>.sw_down,*:focus>.sw_down{background-position:-242px -32px}.b_icon,.sw_poi,.sw_poia{width:20px;height:20px}.sw_poi{background-position:-297px 0}.sw_poia{background-position:-319px 0}.b_fLogo{background-position:-402px 0;height:16px;width:81px}.b_cm{background-position:-433px -32px;height:10px;width:12px}.sw_calc{background-position:-363px 0;height:19px;width:19px}.sw_fbi,.sw_twi,.sw_fbarw,.sw_fbtmb,.sw_twr,.sw_twrt,.sw_twf{background-position:-169px -32px;height:16px;width:16px;display:inline-block}.sw_fbi{background-position:-297px -22px}.sw_twi{background-position:-645px 0}.sw_fbtmb{background-position:-151px -22px}.sw_twr{background-position:-571px -18px;height:11px;width:14px}.sw_twr:hover,.sw_twr:active,.sw_twr:focus{background-position:-587px -18px}.sw_twrt{background-position:-535px -18px;height:10px;width:16px}.sw_twrt:hover,.sw_twrt:active,.sw_twrt:focus{background-position:-553px -18px}.sw_twf,.sw_pipp:hover,.sw_pipp:active,.sw_pipp:focus{background-position:-507px -18px;height:12px;width:12px}.sw_twf:hover,.sw_twf:active,.sw_twf:focus{background-position:-521px -18px}.b_externalSearch input.b_searchboxSubmit{background-position:-147px 0}.sw_pil{background-position:-405px -18px;height:16px;width:12px}.sw_pil:hover,.sw_pil:active,.sw_pil:focus{background-position:-419px -18px}.sw_pifa{background-position:-433px -18px;height:12px;width:12px}.sw_pifa:hover,.sw_pifa:active,.sw_pifa:focus{background-position:-447px -18px}.sw_pit{background-position:-461px -18px;height:11px;width:14px}.sw_pit:hover,.sw_pit:active,.sw_pit:focus{background-position:-477px -18px}.sw_pipp{background-position:-493px -18px;height:12px;width:12px}.sw_tpo,.sw_tpoh,.sw_tpoa{height:12px;width:8px;background-position:-131px -25px}.exp_th .sw_tpoh{background-position:-141px -25px}.exp_ta .sw_tpoh{background-position:-131px -25px}.sw_rmore{background-position:-121px -25px;height:12px;width:8px}.b_ad .b_vlist2col li{padding-bottom:7px}html,body #b_results .b_no{background-color:#fff}.b_footer{background-color:#333}#b_results>li a{color:#1020d0}#b_results>li a:visited{color:#600090}#b_results>li{background-color:#fff}#b_results>.b_ad{color:#303030;background-color:#f9fcf7}#b_results>.b_ad a{color:#1020b0}#b_results>.b_ad a:visited{color:#6010d0}#b_results>.b_pag{background-color:transparent}#b_results>.b_pag a:hover{background-color:#f4f4f4}#b_results>.b_pag a.sb_pagP:hover,#b_results>.b_pag a.sb_pagN:hover{background-color:inherit}#b_context .b_ans,#b_context #wpc_ag{background-color:#f9f9f9}#b_context>li.b_ad{color:#404040;background-color:#f9f9f9}#b_context>li.b_ad a{color:#1020b0}#b_context>li.b_ad a:visited{color:#6010d0}.ccmc{background-color:#ccc}.ccmc:active{background-color:#36b}#b_tween .b_selected,div.b_dropdown .b_selected,#b_tween a.ftrH.b_selected:hover{background:#e1e0df}#b_tween .b_toggle:hover,#b_tween .ftrH:hover{background:#f2f2f2}.b_scroll{background:#999;border-color:#999}.b_scroll:hover{background:#4d4d4d}.b_dropdown{background-color:#fff;border-color:#e5e5e5}#b_content .cbtn,.cbtn input{background:#fff;color:#1020d0;border-color:#ccc}#b_content .cbtn:hover,.cbtn input:hover{background-color:#1020d0;color:#fff;border-color:#1020d0}#b_content .cbtn:focus,#b_content .cbtn:active,.cbtn input:focus,.cbtn input:active{background:#666;color:#fff;border-color:#666}#b_results .wr_tc .cbtn{background:#f4f4f4;color:#1020d0;border:0}#b_results .wr_tc .cbtn:hover,#b_results .wr_tc .cbtn:focus,#b_results .wr_tc .cbtn:active{background:#1020d0;color:#fff}#b_context .b_ans a.cbtn,#b_context .b_ans a.cbtn:visited{color:#1020d0}#b_context .b_ans a.cbtn:hover{color:#fff}#b_context .b_ans a.cbtn:focus,#b_context .b_ans a.cbtn:active{color:#fff}#b_content .cbtn.b_highlighted,.cbtn.b_highlighted input{background:#1020d0;color:#fff;border:0}#b_content .cbtn.b_highlighted:hover,.cbtn.b_highlighted input:hover{background-color:aqua}#b_content .cbtn.b_highlighted:focus,#b_content .cbtn.b_highlighted:active,.cbtn.b_highlighted input:focus,.cbtn.b_highlighted input:active{background:#666}.ctxt,.ctxtb,.csel,.sic,.ccal .ccali,form.b_externalSearch{border:1px solid #bbb}.ccal .ccali,form.b_externalSearch,.b_externalSearch .b_searchboxSubmit{background-color:#fff}.ctxtb,.b_externalSearch input{color:#ccc}.b_externalSearch input:focus,.b_externalSearch input:active{color:#000}a,#b_tween a:visited,#b_results .b_no a,#sw_footL>li a#sb_feedback{color:#1020d0}a:visited,#b_results>li a:visited,#sb_feedback:visited{color:#600090}#b_context a,.b_expando a{color:#1020d0}#b_context .b_ans a:visited,.b_expando .b_ans a:visited{color:#600090}cite,#b_results cite.sb_crmb a{color:#009030}.b_posText{color:#390}.b_negText{color:#d90026}#b_context cite,#b_context cite a,.b_expando cite,.b_expando cite a{color:#009030}#b_context .b_posText,.b_expando .b_posText{color:#390}#b_context .b_negText,.b_expando .b_negText{color:#d90026}.b_ad cite,#b_results .b_ad cite.sbcrmb a{color:#008030}#b_context,#b_context #wpc_eif{color:#333}body,#b_tween a.ftrH,#b_tween a.ftrH:hover,#b_context .b_defaultText,.b_expando,.b_expando h2,.b_expando h3,.b_expando h4,.b_expando .b_defaultText,.b_active a,.b_active a:visited,.b_active a:hover,.b_beta,#b_results>.b_pag a,#b_results .b_no,#b_content a.cbl:visited,#b_content a.cbl{color:#404040}#b_results,#b_results .b_defaultText,#b_results>.b_pag a:hover,#b_tween .b_selected,#b_tween a.ftrH.b_selected,#b_tween a.ftrH.b_selected:hover,#b_tween .b_toggle:hover,#b_tween .b_highlighted,#hlcchcxmn label{color:#404040}.b_alert,.sb_alert,.b_pAlt,#b_results .b_no .b_alert,#b_results .b_no .sb_alert,#b_results .b_no .b_pAlt{color:#d90026}#b_results .b_alert,#b_results .sb_alert,#b_results .b_pAlt{color:#d90026}#b_context .b_alert,#b_context .sb_alert,#b_context .b_pAlt{color:#d90026}.b_demoteText,.b_secondaryText,.b_attribution,.b_factrow,.b_focusLabel,.b_footnote,.b_ad .b_adlabel,#b_tween .b_dropdown a,.b_expando .b_subModule,.b_expando .b_suppModule,.b_algo .b_vList td{color:#737373}.b_footer{color:#fff}.b_footer a,.b_footer a:visited,.b_footer span{color:#777}#sb_feedback{color:#6cc1e9}#b_content .b_lowFocusLink a,#b_context .b_secondaryText,#b_context .b_attribution,#b_context .b_factrow,#b_context .b_footnote,#b_context .b_ad .b_adlabel,.b_expando .b_secondaryText,.b_expando .b_attribution,.b_expando .b_factrow,.b_expando .b_footnote,#b_tween .b_nonselectable{color:#737373}#b_context .b_mhdr:hover .b_secondaryText,.b_expando .b_mhdr:hover .b_secondaryText{color:#36b}.b_button:hover,.b_button:visited,.b_hlButton,.b_hlButton:hover,.b_hlButton:visited,.b_foregroundText,.ciot{color:#fff}.ciot{background-color:#000}.b_button:hover,.b_hlButton{background-color:#0072c5}.b_button:active,.b_hlButton:active{background-color:#333}.b_hlButton:hover{background-color:aqua}.b_border,.b_button,.b_hlButton{border-color:#ccc}.b_pag a{border:3px solid transparent}.b_pag .sb_pagS{border-color:#ededed}#b_context .b_subModule,.b_expando .b_subModule{border-bottom:1px solid #bbb}.c_tlbx,.c_tlbxIS{border-color:#999;background:#fff}.sw_poi{color:#fff}.sw_poia{color:#fff}.sc_errorArea>.sc_error,.sc_errorArea>.sc_error h1,.sc_errorArea>.sc_error h3{color:#404040}.sc_errorArea font[color=red]{color:#d90026!important}html,body,h1,h2,h3,h4,h5,h6,p,img,ol,ul,li,form,table,tr,th,td{border:0;border-collapse:collapse;border-spacing:0;list-style:none;margin:0;padding:0}html{overflow-y:scroll}#b_content{clear:both;min-height:344px;padding:0 0 20px 100px}#b_pole{margin:3px 0 15px -100px;padding-left:120px}#b_results{width:560px}#b_context{margin:0 0 0 30px;padding:0 20px}#b_context .b_ans,.b_expando .b_ans,#b_context .b_ad,.b_card{margin:0 -20px}#b_context .b_ans,.b_expando .b_ans{padding:10px 20px 0}#b_context .b_ad{padding:10px 20px}.b_card{padding:15px 20px}#b_results,#b_context,#b_tween>span,.b_hList>li,.c_tlbxTrg,.b_hPanel>span,.ccal .ccali,.b_footer table,.b_footerRight,.b_hPanel .b_xlText,.b_hPanel .cico,.b_moreLink,.b_label+.b_hList,.cbtn,.lc_bks,.lc_bkl,.fiw,.csrc,.b_footnote .cico,.b_algo .b_title H2,.b_algo .b_title div,h3{display:inline-block}.b_pointer{cursor:pointer}label,.b_ad .b_adlabel,.c_tlbxTrgIcn{display:block}#b_tween{margin-top:-42px;height:30px}#b_tween>span{padding-right:25px}#b_results>li{padding:10px 20px;margin:0 0 2px}#b_results>.b_ans{padding:17px 20px 0}#b_results>.b_algo{padding:12px 20px 0}#b_results>.b_ad{padding-right:18px;border-right:2px solid #e5e5e5}#b_results>li:first-child{padding-top:10px}#b_results>.b_pag{padding:18px 0 40px 20px}#b_results>.si_pp,.sb_hbop,.b_hide,.ttl,#sw_tfbb,.sw_next,.sw_prev,#id_d,.b_hidden img{display:none}.b_hidden{visibility:hidden}#b_context .b_ans,.b_expando .b_ans{margin-bottom:5px}#b_context .b_ad{margin-bottom:5px}.b_inlineList li,.b_inlineList div,.b_factrow li{display:inline}.b_footerRight,td,th,#b_context,.b_hList>li{vertical-align:top}.b_footer{width:100%}.c_tlbxTrg{width:15px;height:14px;margin:-1px 6px -3px 2px}.c_tlbxTrgIcn{margin:4px 0 2px 3px}.c_tlbx{position:absolute;z-index:6;border:1px solid;padding:10px}.c_tlbxIS{border-bottom:1px solid}.b_deep ul{width:230px}#b_results .b_gridList ul{width:250px}.b_gridList ul:first-child,.b_vlist2col ul:first-child{margin:0 20px 0 0}.b_gridList li,.b_vlist2col li{padding:0 0 10px}.b_vlist2col.b_deep li{padding:0 0 10px}.b_overhangR .b_vlist2col ul:first-child{margin:0 15px 0 0}.b_overhangR .b_vlist2col ul{width:180px}.b_deep p{height:33px}#b_context .b_ad .b_adlabel,#b_content .b_expanderControl .sw_plus,.sc_rf form,form.sc_rf,.b_lBMargin{margin-bottom:10px}.b_ad li,#b_results .b_ad .b_adlabel{margin-bottom:8px}.b_ad li:last-child{margin-bottom:0}.b_ad li li,.b_ad li li:last-child{margin:0}#b_results .b_ad .b_vlist2col,#b_results .b_ad .b_factrow{margin-top:-6px}#b_results .b_ad .sb_adRA .b_vlist2col{padding-left:0}.sx_ci{border:1px solid #e5e5e5;margin-top:3px;width:80px;height:60px}.b_favicon{margin:0 .5em 0 0}.b_imagePair:after,.b_vlist2col:after,.b_gridList:after{clear:left}.b_imagePair.reverse:after,.b_overhangR:after{clear:right}.b_clear,#b_results>li:after,.b_clearfix:after{clear:both}#b_results>li:after,.b_clearfix:after,.b_imagePair:after,.b_vlist2col:after,.b_gridList:after,.b_overhangR:after{content:'.';display:block;height:0;visibility:hidden}.b_vlist2col ul,.b_gridList ul,.b_float,.b_footer,.b_float_img,.b_pag li,.b_mhdr h2{float:left}.b_floatR_img,.b_floatR,.wr_tc{float:right}.b_overflow,.b_hList li,.b_1linetrunc,.b_deep p,.b_imageOverlayWrapper{overflow:hidden}.b_ansImage{padding:2px 10px 0 0}.b_creditedImg img,.b_creditedImg .cico{padding-bottom:1px}h4,.sa_uc>.b_vList>li>table td,.b_smBottom,#b_context .b_ad h2,.b_attribution,.b_factrow,.b_secondaryFocus,.b_focusTextLarge,.b_focusTextMedium,.b_focusTextSmall,.b_focusTextExtraSmall,.b_snippet{padding-bottom:2px}h2,.b_focusLabel,label{padding-bottom:3px}.b_vPanel .b_vPanel>div,.b_vList .b_vPanel>div,.b_dataList li,.b_mBottom{padding-bottom:5px}.b_lBottom,.b_caption,.b_moreLink,.b_footnote,.b_vList>li,.b_hList>li,.b_vPanel>div,#b_context h2,#b_results .b_ad .b_factrow,.b_expando h2,.b_no h1,.b_no h4,.b_no li,.b_prominentFocusLabel,.ht_module,.b_locStr{padding-bottom:10px}#b_results .b_ans>.b_factrow:last-child{padding-bottom:10px}#sp_requery h2,.b_vList .b_hList>li,.b_vPanel .b_hList>li,#b_content .ht_module h2,.b_vList .b_float_img,.b_creditedImg .b_footnote,.b_creditedImg .cico img,#b_results>.b_ad,.b_suppModule .b_mhdr,.b_vList>li>.tab-container,.b_vPanel>div>.tab-container,.b_ad .b_deep h3{padding-bottom:0}.b_caption .b_factrow:last-child,.b_caption>.b_dataList:last-child li:last-child,.b_caption .b_moreLink:last-child,.b_vList .b_moreLink:last-child,.b_vList .b_factrow:last-child,.b_hList .b_factrow:last-child,.b_vPanel .b_factrow:last-child,.b_caption .b_attribution:last-child,.b_vList .b_attribution:last-child,.b_hList .b_attribution:last-child,.b_vPanel .b_attribution:last-child,.b_vList>li>table:last-child tr:last-child td,.b_vPanel>div>table:last-child tr:last-child td,.b_vList .b_focusLabel:last-child,.b_vPanel .b_focusLabel:last-child,.b_vList .b_prominentFocusLabel:last-child,.b_vPanel .b_prominentFocusLabel:last-child,.b_vList .b_secondaryFocus:last-child,.b_vPanel .b_secondaryFocus:last-child,.b_vList .b_focusTextExtraSmall:last-child,.b_vPanel .b_focusTextExtraSmall:last-child,.b_vList .b_focusTextSmall:last-child,.b_vPanel .b_focusTextSmall:last-child,.b_vList .b_focusTextMedium:last-child,.b_vPanel .b_focusTextMedium:last-child,.b_vList .b_focusTextLarge:last-child,.b_vPanel .b_focusTextLarge:last-child,.b_vList h4:last-child,.b_vPanel h4:last-child,.b_vPanel .b_caption:last-child,.b_vPanel .b_vList:last-child li:last-child,.b_vPanel .b_footnote:last-child{padding-bottom:0}.b_vList .b_vPanel,.b_vPanel .b_vPanel{margin-bottom:-5px}.b_caption>.b_gridList,.b_hList .b_vList,.b_hList .b_vPanel{margin-bottom:-10px}.ht_module .sc_rf form.lc_bk,.b_mBMargin,.wpcbcc{margin-bottom:5px}#b_results .b_no{margin-bottom:80px}h2+.b_rich{padding-top:2px}.b_attribution+.b_rich{padding-top:3px}.b_algo .b_attribution img{vertical-align:text-bottom}.b_smLeft{padding-left:2px}.b_lLeft,.b_floatR_img,.b_suffix,.b_footnote .cico{padding-left:10px}.wr_tc,.b_xlLeft,.b_deep,#b_results .b_ad .b_vlist2col,#b_tween{padding-left:20px}h2 .b_secondaryText{margin-left:5px}.b_hList.b_imgStrip>li{padding-right:1px}.b_smRight{padding-right:2px}.fiw,.lc_bkl,.b_mRight,.b_label,.csrc{padding-right:5px}.b_lRight,.b_hPanel>span,.b_hList>li,.b_imgStrip .imgData,.b_underSearchbox .b_label{padding-right:10px}.b_hPanel.wide>span,.b_xlRight{padding-right:20px}.b_hList.b_imgStrip>li:last-child,.b_hList>li:last-child,.b_hPanel>span:last-child,td:last-child,th:last-child,#b_tween>span:last-child{padding-right:0}.b_twoColumn>div:first-child{padding-right:30px}.b_overhangR{margin-right:-30px;padding-right:150px}.wr_tc{margin-right:-150px}.wr_et{margin-right:-120px}.b_tbl{margin-right:-10px}.b_border,.b_button,.b_hlButton,.cbtn,.b_scroll,.b_dropdown{border-width:1px;border-style:solid}.b_button,.b_hlButton,a.cbtn,.cbtn input{line-height:30px;text-decoration:none;text-align:center;cursor:pointer;padding:0 15px;min-width:50px}.wr_tc a.cbtn{line-height:36px}.cbtn input{border:0;height:30px}#b_results .b_deep .cbtn{background:#f4f4f4;color:#1020d0;border:0;line-height:36px}.cbtn input::-moz-focus-inner{padding:0;border:0}.lc_bks .cbtn{margin-top:15px}#b_context .b_subModule,.b_expando .b_subModule{padding-bottom:0;margin-bottom:10px}.b_dropdown{position:absolute;z-index:6}.b_scroll{position:relative;top:0;width:5px;height:20px}.b_pag a{display:block;min-width:34px;margin-right:10px;text-align:center;height:34px;line-height:34px}.b_pag a.sb_pagN,.b_pag a.sb_pagP{min-width:0;height:30px;border:0;margin-top:5px}.b_pag .sw_prev,.b_pag .sw_next{margin:2px}.b_mhdr{margin:-15px 0 -5px;padding:15px 0 5px}.b_mhdr .sw_up,.b_mhdr .sw_down{margin-top:7px}.b_mhdr .b_moreLink,.b_mhdr .b_secondaryText{margin-top:5px}.b_vPanel .sc_rf form,.b_suppModule .b_mhdr{margin-bottom:0}.b_rTxt{text-align:right}.b_cTxt{text-align:center}table{width:100%;word-wrap:break-word}td,th,.b_float_img{padding:0 10px 10px 0}th{text-align:left}.sw_poi,.sw_poia{float:left;margin:-3px 5px 0 0;line-height:20px;text-align:center}.ctxt,.ctxtb{padding:5px 15px;height:20px}.ctxt.b_focusTextMedium,.ctxtb.b_focusTextMedium{height:58px}input.ctxt,input.ctxtb,.ccal input,.ccal .ccali,.cbtn input,.b_favicon,.b_footnote .cico{vertical-align:middle}.ccal .ccali{height:30px;border-left:0}.ccal .ccalp{padding:5px 5px 0 5px}form.b_externalSearch{margin:0 20px 10px}.b_externalSearch input{border:0;height:40px;margin-left:10px;outline:none;padding:0}.b_externalSearch .ctxt,.b_externalSearch .ctxtb,.ccal .ctxt{border-right:0}.b_externalSearch .b_searchboxSubmit{height:20px;width:20px;margin:10px;float:right;background-position:-104px 0}.b_underSearchbox{margin:-35px 20px 40px}.b_underSearchbox .b_hList>li{padding:0 8px 0 0}.b_compactSearch label{float:left;margin:7px 10px 0 0}.b_compactSearch input{margin-right:0;float:left}.b_compactSearch .cbtn{border-left:0}.b_footer table{width:520px;margin:15px 20px 0 120px}.b_footer th,.b_footer td{width:173px;padding-bottom:10px}.b_footerRight{margin:13px 0 0 50px}.b_footerRight div{margin-bottom:11px}.b_footerRight .b_fLogo{margin-bottom:13px}.b_1linetrunc{text-overflow:ellipsis;white-space:nowrap}div.cico.b_capImg{padding-bottom:4px}.b_imageOverlayWrapper{margin:-20px 0 0;height:20px}.b_imageOverlay{color:#fff;background-color:#000;padding:5px}.ansP,.ansPF{padding-left:30px}.ansP .wpc_pin,.ansPF .wpc_pin{margin-left:-30px}select{padding:5px 10px 5px 5px;margin:0;height:32px}#b_context .rssmgrp .b_subModule{border-bottom:0}input,textarea,h4,h5{font:inherit;font-size:100%}body,.b_no h4,h2 .b_secondaryText,h2 .b_alert{font:13px/normal Arial,Helvetica,Sans-Serif}h1,h2,h3{font:13px/1.2em 'Segoe UI',Arial,Helvetica,Sans-Serif}h2,h3,.b_no h1{font-size:18px}cite{font-style:normal;word-wrap:break-word}th{font-weight:normal}.sb_alert a,#sp_requery a{font-style:italic}#b_content,#b_context,.b_expando{line-height:1.2em}#b_context,.b_expando,#vidans2{word-wrap:break-word}#sa_ul li,.nowrap{white-space:nowrap}.b_footer{line-height:18px}.b_smText,.b_footnote,.b_imageOverlay,.ciot{font:11px/normal Arial,Helvetica,Sans-Serif}.b_ad .b_adlabel,.b_ad .b_adlabel strong{font:12px/normal Arial,Helvetica,Sans-Serif}.b_focusLabel,.b_secondaryFocus,.b_focusTextExtraSmall{font:18px/1.2em 'Segoe UI',Arial,Helvetica,Sans-Serif}.b_focusTextExtraSmall{line-height:1.3em}.b_entityTitle{font:600 24px/normal 'Segoe UI Semilight',Arial,Helvetica,Sans-Serif}.b_prominentFocusLabel,.b_xlText{font:24px/1.2em 'Segoe UI',Arial,Helvetica,Sans-Serif}.b_focusTextSmall,.b_focusTextMedium,.b_focusTextLarge{font:32px/1.2em 'Segoe UI Light',Arial,Helvetica,Sans-Serif}.b_focusTextMedium{font-size:40px}.b_focusTextLarge{font-size:60px}strong,.b_active a,.b_no h4,.b_strong,.cbtn,.b_ad .b_adlabel strong,.cbl{font-weight:700}h1 strong,h2 strong,h3 strong,.b_xlText strong,.b_focusTextSmall strong{font-family:'Segoe UI Semibold',Arial,Helvetica,Sans-Serif}#b_tween>span{line-height:42px}#b_tween{font-size:12px}.sb_count{text-transform:uppercase}.b_pag a,.b_pag a:hover,.ftrB a,.ftrB a:hover,.cbtn,.cbtn:hover,.cbtn:focus,.cbtn:active,.cbtn input,.cbtn input:focus,.cbtn input:active,.b_button:hover,.b_hlButton:hover,#sp_requery h2 a{text-decoration:none}#sp_requery h2 a:hover,.b_deep h3 a,#b_results li h5 a{text-decoration:underline}.sw_meIc,.sw_spd,.sw_spr,.sw_pref,.b_logo,.b_scopebarWindows,.b_searchboxSubmit,.idp_fb,.idp_wlid,.idp_tw{background-image:url(/sa/simg/sw_mg_l_4d_lg.png);background-repeat:no-repeat}.b_scopebarWindows{background-position:-575px 0}.b_scopebarWindows:hover,.b_scopebarWindows:active,.b_scopebarWindows:focus{background-position:-592px 0}.b_searchboxSubmit{background-position:-97px 0}.b_focus .b_searchboxForm .b_searchboxSubmit{background-position:-122px 0;background-color:#ffb900;border-color:#ffb900}.sw_pref,.idp_fb,.idp_wlid,.idp_tw{background-position:-485px 0;height:16px;width:16px}.sw_pref:hover,.sw_pref:active,.sw_pref:focus{background-position:-503px 0}.idp_fb{background-position:-298px -22px}.idp_wlid{background-position:-384px 0}.idp_tw{background-position:-645px 0}.sw_meIc,.sw_spr,.img_rwds_sml{background-position:-521px 0;height:16px;width:16px}#spcv .sw_meIc,.rigleamon .sw_meIc{background-position:-557px 0}.gleamon .sw_meIc{background-position:-627px 0}.gleamoff .sw_meIc{background-position:-609px 0}.sw_spd{background-position:-341px 0;height:20px;width:20px}.b_logo{width:73px;height:29px;vertical-align:top;text-indent:-999px;float:right;margin-top:6px}.b_logo.b_animate{width:81px;height:60px;background-image:url('/s/a/b_logo_anim.png');background-position:0;margin:-9px 7px -5px 12px}.b_beta{position:absolute;top:98px;left:48px}#b_header .b_searchboxForm{padding:0 0 0 5px}#b_header .b_searchbox{margin-right:11px}.b_scopebar{background-color:#333}.b_searchboxForm .b_searchboxSubmit{background-color:#fff;border-color:#fff}.b_searchboxForm,.sa_as{background-color:#fff}.sw_pref,.b_active a:after{border-color:#333}.b_active a:after{border-bottom-color:#fff}.b_searchboxForm{border-color:#999}.b_scopebar,.b_scopebar a,.b_scopebar a:visited,.id_button,.id_button:visited{color:#ccc}.id_button:hover,.b_idOpen a#id_l,a#bep.openfo,a#id_rh.openfo{color:#333;background-color:#eee}.b_scopebar .b_active a,.b_scopebar a:hover{color:#fff}#sw_as{color:#999}.sa_tm strong{color:#404040}.sa_as{border-color:#999}.sa_hv{background:#f6f5f5}#bepfo{border-color:#eee;background-color:#fff}.b_idOpen #id_l{background-color:#eee}.wpc_bub a{color:#1020d0}.b_secondaryScope a,.b_secondaryScope a:visited{color:#ffb900;background-color:#444;text-transform:none;padding:0 30px}.b_secondaryScope a:hover{color:#fff;background-color:#777}#b_header{margin-bottom:42px}.b_scopebar{height:30px;overflow-y:hidden}.b_scopebar ul{padding:0 0 0 105px}.b_scopebar li,.b_scopebar a,.b_logo,.b_searchboxForm,#id_h .id_button,.id_avatar,.rwds_bep_head,.sw_pref{display:inline-block}.b_scopebar a{padding:0 15px}.b_active a,.b_searchboxForm{position:relative}.b_active a:after{content:" ";border-width:0 9px 9px;border-style:solid;display:inline-block;position:absolute;left:50%;top:23px;margin:0 0 0 -9px}a.b_scopebarWindows{width:15px;height:15px;display:inline-block;padding:0;margin:0 15px -2px}.b_logoArea{width:90px;margin:-2px 10px 0 0;float:left}.b_searchboxForm{padding:0 5px;border-width:1px;border-style:solid}.b_searchbox{width:490px;margin-top:2px;margin-right:0;margin-bottom:3px;margin-left:12px;border:0;padding-top:0;padding-right:10px;padding-bottom:0;padding-left:0;max-height:30px;outline:none;border-right:1px solid;border-color:#ccc;box-sizing:content-box;position:relative;height:40px}.b_focus .b_searchbox{border-width:0}.b_searchboxSubmit{width:40px;height:35px;border-top-width:6px;border-right-width:8px;border-bottom-width:6px;border-left-width:9px;margin:0;border-style:solid;text-indent:-99em;vertical-align:bottom;position:static;right:0;top:0}.b_focus .b_searchboxForm .b_searchboxSubmit{background-color:#ffb900;border-color:#ffb900}#b_header .b_searchbox{margin-right:0}.b_focus .b_searchboxForm{border-color:#999}#sw_as{display:none;width:auto;position:relative;z-index:6}.sa_as{border-width:1px;border-style:solid;position:absolute;display:none;width:100%}#sa_ul .sa_tm{margin-left:12px}.sa_sg{margin:0 5px}#sa_ul .sa_hd{margin-left:17px}.b_searchboxSubmit,.sa_sg{cursor:pointer}#id_h{top:0;height:30px;text-align:right;z-index:1}#id_l,.id_button{padding:0 10px}.id_avatar{vertical-align:top;margin:5px 0 0 10px}.sw_meIc{margin-top:7px}.rwds_bep_head{vertical-align:top;margin:7px 0 0 6px}#bepfo{border-width:0 1px 1px 1px;border-style:solid}#bepfo,#bepfo iframe,#bepfl{width:372px}#bepfl{text-align:center;margin:50px 0}#id_d,#bepfo{position:absolute;top:30px;z-index:6;text-align:left;color:#333;background-color:#fff;border:1px solid #ccc;border-top-width:0}.b_idOpen #id_d{display:block;padding:11px 0 5px}#sw_tfbb,#id_d{display:none}.sw_pref{border-style:solid;border-width:7px 0 7px 10px;vertical-align:bottom}#b_tween{margin-top:-28px}#b_tween>span{line-height:30px}#b_tween .ftrH{line-height:30px;height:30px}input{font:inherit;font-size:100%}.b_searchboxForm{font:18px/normal 'Segoe UI',Arial,Helvetica,Sans-Serif}.b_beta{font:11px/normal Arial,Helvetica,Sans-Serif}.b_scopebar,.id_button{line-height:30px}.sa_hd,.b_scopebar{text-transform:uppercase}h2 a,a:hover,.sa_hv,.pp_err span{text-decoration:underline}a,#b_header a,#b_header a:hover,#id_h a,#id_h a:hover,.b_toggle,.b_toggle:hover{text-decoration:none}#sa_ul,.pp_err,.pp_title,.pp_sEntInt,.pp_dNavInt{font:16px/normal 'Segoe UI',Arial,Helvetica,Sans-Serif}.sa_tm{line-height:30px}.sa_ec{font:13px Arial,Helvetica,Sans-Serif}#sa_ul .sa_hd{font-size:11px;line-height:16px}#sw_as strong{font-family:'Segoe UI Semibold','Segoe UI',Arial,Helvetica,Sans-Serif}#id_h{display:none;float:right;margin-right:20px;position:relative}#id_d{right:25px}#bepfo{left:-160px}.b_scopebar{display:inline-flex;float:left}.b_navbar:after{clear:both;content:'.';display:block;height:0;visibility:hidden}.b_topbar{background-color:#333;margin-bottom:10px}#b_context,.b_contextWidth{width:255px;}.sa_open .b_searchbox{width: 816px;}.b_poleContent{width:865px;}.b_navbar{width: 985px;}#id_h{margin-right: 0;}body{min-width: 990px;}.sa_ec{left: 333px;width: 550px;}.sa_se .sa_s,.sa_se .sa_sg{width: 323px;}.sa_se .sa_tm{max-width: 313px;}.sa_se .sa_pp .sa_tm{max-width: 269px;}.pp_1col{width: 545px;}.pp_2col{width: 270px;}.pp_3col{width: 178px;}
+  </style>
+  <script type="text/javascript">
+   //<![CDATA[
+var amd,define,require;(function(n){function e(n,i,u){t[n]||(t[n]={dependencies:i,callback:u},r(n))}function r(){if(arguments.length==0){if(!f){for(var n in t)u(n);f=!0}return i}if(arguments.length==1)return u(arguments[0])}function u(n){var o,f;if(i[n])return i[n];if(t.hasOwnProperty(n)){var c=t[n],e=c.dependencies,a=c.callback,l=r,s={},h=[l,s];if(e.length<2)throw error("invalid usage");else if(e.length>2)for(o=e.slice(2,e.length),f=0;f<o.length;f++)h.push(u(o[f]));return a.apply(this,h),i[n]=s,s}}var t={},i={},f=!1;n.define=e,n.require=r})(amd||(amd={})),define=amd.define,require=amd.require;var _w=window,_d=document,sb_ie=window.ActiveXObject!==undefined,sb_i6=sb_ie&&!_w.XMLHttpRequest,_ge=function(n){return _d.getElementById(n)},sb_st=function(n,t){return setTimeout(n,t)},sb_ct=function(n){clearTimeout(n)},sb_gt=function(){return+new Date},sj_gx=function(){return sb_i6?new ActiveXObject("MSXML2.XMLHTTP"):new XMLHttpRequest};_w.sj_ce=function(n){return _d.createElement(n)},_w.sk_merge||(_w.sk_merge=function(n){_d.cookie=n});define("fallback",["require","exports"],function(n,t){function f(){return function(){for(var t=[],i,n=0;n<arguments.length-0;n++)t[n]=arguments[n+0];i=h(arguments.callee),t[0]==="onPP"&&c(),i.push(t)}}function h(n){for(var t in i)if(i[t].h===n)return i[t].q}function u(n,t){for(var e=n.split("."),i=_w,u,r=0;r<e.length;r++)u=e[r],typeof i[u]=="undefined"&&t&&(i[u]=r===e.length-1?f():{}),i=i[u];return i}function c(){var e=i["rms.js"].q,o,f,u,n,r,t;if(e.length>0)for(o=!1,f=0;f<e.length;f++){for(u=e[f],n=0;n<u.length;n++)if(r=u[n]["A:Shared.Bundle"],r||(r=u[n]["A:rmsBu0"]),r){t=_d.createElement("script"),t.setAttribute("data-rms","1"),t.src=r,t.type="text/javascript",setTimeout(function(){_d.body.appendChild(t)},0),u.splice(n,1),o=!0;break}if(o)break}}function s(){for(var t,f,n=0;n<r.length;n++)t=r[n],f=u(t,!0),i[t]={h:f,q:[]}}function e(){for(var n,t=0;t<r.length;t++){var s=r[t],e=i[s].q,o=u(s);for(n=0;n<e.length;n++)o.toString()!==f().toString()&&o.apply(null,e[n])}}function o(n,t,i,r){(n===_w||n===_d||n===_d.body)&&t=="load"?_w.sj_evt.bind("onP1",i,!0):n.addEventListener?n.addEventListener(t,i,r):n.attachEvent?n.attachEvent("on"+t,i):n["on"+t]=i}var r=["rms.js","sj_evt.bind","sj_evt.fire","sj_jb","sj_wf","sj_cook.get","sj_cook.set","sj_pd","sj_sp","sj_be","sj_go","sj_ue","sj_evt.unbind","sj_et","Log.Log"],i={};t.replay=e,s(),_w.sj_be=o});function lb(){_w.si_sendCReq&&sb_st(_w.si_sendCReq,800),_w.lbc&&_w.lbc()};var si_PP=function(n,t){var r,e,o,s,u,l,h,i,c,f;if(!_G.PPS){for(e=["FC","BC","H","BP",null];r=e.shift();)e.push('"'+r+'":'+(_G[r+"T"]?_G[r+"T"]-_G.ST:-1));if(o=_w.performance&&_w.performance.timing,s=null,o&&(u=["unloadEventStart","unloadEventEnd","redirectStart","redirectEnd","fetchStart","domainLookupStart","domainLookupEnd","connectStart","connectEnd","secureConnectionStart","requestStart","responseStart","domLoading","domInteractive","domContentLoadedEventStart","domContentLoadedEventEnd","domComplete","loadEventStart","loadEventEnd","msFirstPaint","responseEnd",""],l=o.navigationStart,l>=0)){for(c=f=h=0;r=u.shift();h++)i=o[r],i>0&&(c|=1<<h,i-=l,u.push(i===f?"":(i-f).toString(16)),f=i);s=',"w3c":"'+c.toString(16)+","+u.join()+'"'}_G.PPImg=new Image,_G.PPImg.src=_G.lsUrl+'&Type=Event.CPT&DATA={"pp":{"S":"'+(t||"L")+'",'+e.join(",")+',"CT":'+(n-_G.ST)+',"IL":'+_d.images.length+"}"+(_G.C1?","+_G.C1:"")+(s!==null?s:"")+"}"+(_G.P?"&P="+_G.P:"")+(_G.DA?"&DA="+_G.DA:"")+(_G.MN?"&MN="+_G.MN:""),_G.PPS=1,sb_st(function(){sj_evt.fire("onPP")},1)}};_w.onbeforeunload=function(){si_PP(new Date,"A")};function si_ct(n,t,i){var f="getAttribute",u,r,o;try{for(;n!==document.body;n=n.parentNode){if(u=n.tagName=="A"&&n[f]("h")||n[f]("_ct"),u){r=n[f]("_ctf"),r&&_w[r]||(r="si_T"),_w[r]&&_w[r]("&"+u,n,i);break}if(t)break}}catch(e){}return!0}(function(){sj_be(document,"mousedown",function(n){si_ct(sb_ie?_w.event.srcElement:n.target,!1,_w.event||n)},!1)})();var wlc_d = 1500,wlc_t = 63555686019;;var sj_log=function(n,t,i){var r=new RegExp('"',"g");(new Image).src=_G.lsUrl+'&Type=Event.ClientInst&DATA=[{"T":"'+n+'","FID":"CI","Name":"'+t+'","Text":"'+escape(i.replace(r,""))+'"}]'};_w.AM=["live.com","virtualearth.net","windows.net","onenote.com","hexun.com","dict.bing.com.cn","msn.com","variflight.com","bing.net","msftoffers.com","chinacloudapp.cn"];(function(){function t(t,i){var r=t.tagName;return(r==="SCRIPT"&&(n.href=t.src)||r==="OBJECT"&&t.type&&t.type.indexOf("flash")>0&&(n.href=t.data))&&n.href.length>0&&n.hostname.length>0&&n.hostname!==location.hostname&&!e(n.hostname)?(sj_log("CI.AntiMalware",i,r.substr(0,1)+":"+n.href.substr(0,f)),!1):!0}function e(n){for(var t=0;t<u.length;t++)if(n.indexOf(u[t])>=0)return!0;return!1}var u=_w.AM,f=100,n=document.createElement("A"),r,i;document.write=function(n){n.length>0&&sj_log("CI.AntiMalware","DW",n.substr(0,f))},typeof Element!="undefined"&&Element.prototype&&(r=Element.prototype.appendChild,Element.prototype.appendChild=function(n){return t(n,"AC")?r.apply(this,arguments):null},i=Element.prototype.insertBefore,Element.prototype.insertBefore=function(n){return t(n,"IB")?i.apply(this,arguments):null})})();
+//]]>
+  </script>
+  <title>
+   hello world - Bing
+  </title>
+  <link href="/search?format=rss&amp;q=hello%20world&amp;first=0" rel="alternate" title="XML" type="text/xml"/>
+  <link href="/search?format=rss&amp;q=hello%20world&amp;first=0" rel="alternate" title="RSS" type="application/rss+xml"/>
+  <link href="/s/a/bing_p.ico" rel="icon"/>
+  <!-- FD: 3A1075C09E20C1834CAF5F2D4085B9F9 -->
+ </head>
+ <body class=" " onload="if(_w.lb)lb();">
+  <script type="text/javascript">
+   //<![CDATA[
+_G.PCT=new Date
+//]]>
+  </script>
+  <!--FdBodyAsync-->
+  <header id="b_header">
+   <div class="b_topbar">
+    <div class="b_navbar">
+     <nav aria-label="navigation" class="b_scopebar">
+      <ul>
+       <li class="b_active">
+        <a h="ID=SERP,5032.1" href="/?scope=web&amp;FORM=HDRSC1">
+         Web
+        </a>
+       </li>
+       <li>
+        <a h="ID=SERP,5033.1" href="/images/search?q=hello+world&amp;FORM=HDRSC2">
+         Images
+        </a>
+       </li>
+       <li>
+        <a h="ID=SERP,5034.1" href="/videos/search?q=hello+world&amp;FORM=HDRSC3">
+         Videos
+        </a>
+       </li>
+       <li>
+        <a h="ID=SERP,5035.1" href="/mapindia/?q=hello+world&amp;mkt=en&amp;FORM=HDRSC4">
+         Maps
+        </a>
+       </li>
+       <li>
+        <a h="ID=SERP,5036.1" href="/news/search?q=hello+world&amp;FORM=HDRSC6">
+         News
+        </a>
+       </li>
+       <li>
+        <a h="ID=SERP,5037.1" href="/explore?q=hello+world&amp;FORM=HDRSC5">
+         More
+        </a>
+       </li>
+      </ul>
+     </nav>
+     <div id="id_h">
+      <a class="id_button" h="ID=SERP,5041.1" href="javascript:void(0);" id="id_l">
+       <span id="id_s">
+        Sign in
+       </span>
+       <span class="sw_spd id_avatar" id="id_a">
+       </span>
+       <span id="id_n" style="display:none">
+       </span>
+       <img class="b_icon id_avatar" id="id_p" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7" style="display:none"/>
+      </a>
+      <a class="sw_pref" h="ID=SERP,5042.1" href="/account/general?ru=http%3a%2f%2fwww.bing.com%3a80%2fsearch%3fq%3dhello%2520world%26first%3d0&amp;FORM=SEFD" title="Preferences">
+      </a>
+      <span _iid="SERP.5045" id="id_d">
+      </span>
+     </div>
+     <div id="sw_tfbb">
+     </div>
+    </div>
+   </div>
+   <form action="/search" id="sb_form">
+    <a class="b_logoArea" h="ID=SERP,5039.1" href="/?FORM=Z9FD1">
+     <h1 class="b_logo">
+      Bing
+     </h1>
+    </a>
+    <div class="b_searchboxForm">
+     <input autocapitalize="off" autocomplete="off" autocorrect="off" class="b_searchbox" dir="" id="sb_form_q" maxlength="1000" name="q" onfocus="_ge('b_header').className='b_focus';" spellcheck="false" title="Enter your search term" type="search" value="hello world"/>
+     <input class="b_searchboxSubmit" id="sb_form_go" name="go" tabindex="0" title="Search" type="submit"/>
+     <input id="sa_qs" name="qs" type="hidden" value="ds"/>
+     <input name="form" type="hidden" value="QBRE"/>
+    </div>
+   </form>
+  </header>
+  <script type="text/javascript">
+   //<![CDATA[
+var wlc_d = 1500,wlc_t = 63555686019;;_G.AppVer="8_01_1_3586487";
+//]]>
+  </script>
+  <!--snr2-->
+  <!--wm-->
+  <script type="text/javascript">
+   //<![CDATA[
+_G.FCT=new Date
+//]]>
+  </script>
+  <style type="text/css">
+   .ftrH,.ftrHd,.ftrD>a,.ftrD>div{white-space:nowrap;height:36px;line-height:36px;padding:0 15px}.ftrD{max-height:216px;overflow:hidden;min-width:125px}.ftrD>a,.ftrD>div{display:block}.ftrS .ftrD{margin-right:10px}.ftrSbR{position:absolute;top:0;right:0;height:100%;margin:5px 0;padding-right:3px}.ftrB .sw_ddbk{margin:2px 0 2px 7px}.ftrB .sw_tpcg,.ftrB .sw_tpcbl{margin:0 0 0 14px}.ftrH,.ftrHd,.ftrB .sw_ddbk,.ftrB .sw_tpcg,.ftrB .sw_tpcbl{display:inline-block;*display:inline;zoom:1}z{a:1}#b_results #irpserp{margin-left:-1px;overflow:hidden}.irpsg img{display:block}.irpsg .sgur,.irpsg .sgg{border:1px solid #ccc}.irpsg .sgg{border-style:solid none none solid}.irpsg .sgur{border-style:none solid solid none;float:left}.irpsg .sguif,.irpsg .sguof{border:1px solid #fff;margin:0 0 0 -1px;position:absolute;visibility:hidden;z-index:1}.irpsg .sguof{border-color:#36b}.irpsg .sguof a,.irpsg .sguif a{display:block;width:100%;height:100%}.irpsg .sgpg{overflow:hidden;display:block}.irpsg .sgpg a:hover{text-decoration:none}.irpdg .irpmt{margin-top:1px}.irpdg .sgur{border:1px solid #fff;border-style:solid solid solid none;display:inline-block}.sgg .sgur.dgu:hover{border-color:#fff}.irpdg .dgu{float:left}#irpserp.irpunit80x80x1x5{width:436px;height:82px}.irpunit80x80x1x5 .irpstitched .sgg a{width:80px;height:80px}#irpserp.irpunit80x80x2x5{width:406px;height:83px}.irpunit80x80x2x5 #irp{width:411px}.irpunit80x80x2x5 .irpstitched .sgg a{width:80px;height:80px}.irpunit80x80x2x5 .irpstitchedhero .sgg a:first-child{width:161px;height:161px}#irpserp.irpunit98x108x1x5{width:526px;height:110px}.irpunit98x108x1x5 .irpstitched .sgg a{width:98px;height:108px}#irpserp.irpunit103x103x1x5{width:551px;height:105px}.irpunit103x103x1x5 .irpstitched .sgg a{width:103px;height:103px}#irpserp.irpunit80x80x1x6{width:517px;height:82px}.irpunit80x80x1x6 .irpstitched .sgg a{width:80px;height:80px}#irpserp.irpunit103x103x2x5{width:521px;height:209px}.irpunit103x103x2x5 #irp{width:526px}.irpunit103x103x2x5 .irpstitched .sgg a{width:103px;height:103px}.irpunit103x103x2x5 .irpstitchedhero .sgg a:first-child{width:207px;height:207px}#irpserp.irpunit103x103x3x5{width:521px;height:313px}.irpunit103x103x3x5 #irp{width:526px}.irpunit103x103x3x5 .irpstitched .sgg a{width:103px;height:103px}.irhc{padding:10px;background:#fff;border:1px solid #000;position:absolute;text-decoration:none;color:#000;z-index:4}.irhc span{display:block;position:relative;margin-bottom:10px}.irhc img{display:block;position:absolute;top:0}.irhld{width:30px;height:30px;z-index:-1}.irhcs span{display:block;width:100%;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.irhcs1{font-weight:bold}.irhcs2{color:#898994}.irhcs3{color:#568e1a}.sguh{z-index:4}.sguhr{float:left}.sgg{border-style:solid none none solid}.sgur{display:inline-block;border-style:none solid solid none}.sguof,.sguif{position:absolute;visibility:hidden;z-index:1}.sguof a,.sguif a{display:block;width:100%;height:100%}#irp .sgg{border-color:#CCC;border-width:1px}#irp .sguif{border:1px solid #fff}#irp .sguof{border:1px solid #36b}.ccmc{cursor:pointer;display:block;position:relative}.ccmc .sw_arwh{position:absolute}#b_context .b_rs .b_vList>li{padding-bottom:4px}#b_context .b_rs>.b_vList{padding-bottom:6px}#b_results .b_rs a,#b_context .b_rrs a{text-decoration:none}#b_context .b_ans>.b_vList>li{padding-bottom:4px}
+  </style>
+  <script type="text/javascript">
+   //<![CDATA[
+SGConfig={"cow":0,"coh":0,"jg":false,"gc":"#CCC","glw":1,"hcss":"sguh","lh":1.4,"ch":0,"cvw":80,"cvh":80,"cvml":0,"cvmt":0,"cvmr":0,"cvmb":0,"iw":80,"ih":80,"it":false,"hd":300,"eht":true,"aurl":"/imagegrid?q=%QUERY%\u0026offset=%FIRST%\u0026r=1\u0026c=6\u0026p=80\u0026IID=SERP.6100\u0026IG=%IG%\u0026SFX=%SFX%","ps":6,"ess":false,"pl":"\u003cspan class=\u0027sg_u\u0027\u003e\u003cspan class=\u0027sg_cv\u0027\u003e\u003cspan class=\u0027sg_t\u0027\u003e\u003c/span\u003e\u003c/span\u003e\u003c/span\u003e","hpcss":"","hpas":true,"hpcaw":250,"hpcah":250,"hpiw":250,"hpih":250,"hcw":300,"hch":300,"hiw":300,"hih":300,"iffw":1,"offw":1,"eh":true,"edr":false,"mgup":"\u003ca class=\u0027sgur\u0027 /\u003e","sbp":true,"hpav":true,"uap":true};
+//]]>
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+_G.BCT=new Date
+//]]>
+  </script>
+  <div id="b_content">
+   <div id="b_tween">
+    <span class="sb_count">
+     142,00,000 results
+    </span>
+    <span class="ftrB">
+     <a class="ftrH" h="ID=SERP,5252.1" href="javascript:" id="h5255">
+      Narrow by language
+      <span class="sw_ddbk">
+      </span>
+     </a>
+    </span>
+    <span class="ftrB">
+     <a class="ftrH" h="ID=SERP,5257.1" href="javascript:" id="h5259">
+      Narrow by region
+      <span class="sw_ddbk">
+      </span>
+     </a>
+    </span>
+   </div>
+   <ol id="b_results">
+    <li class="b_algo">
+     <h2>
+      <a h="ID=SERP,5115.1" href="http://en.wikipedia.org/wiki/Hello_world_program">
+       "
+       <strong>
+        Hello, world
+       </strong>
+       !" program - Wikipedia, the free encyclopedia
+      </a>
+     </h2>
+     <div class="b_attribution" u="0|5048|4711232639796432|tPD1nVA551lea-i9bHP3YStjI2FEl6Ts">
+      <cite>
+       en.wikipedia.org/wiki/
+       <strong>
+        Hello_world
+       </strong>
+       _program
+      </cite>
+      <span class="c_tlbxTrg">
+       <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5116.1">
+       </span>
+      </span>
+     </div>
+     <div class="b_caption">
+      <div class="b_snippet">
+       <p>
+        A "
+        <strong>
+         Hello, world
+        </strong>
+        !" program is a computer program that outputs "
+        <strong>
+         Hello, World
+        </strong>
+        !" (or some variant thereof) on a display device. Because it is typically one of the ...
+       </p>
+      </div>
+      <ul class="b_factrow">
+       <li>
+        <a h="ID=SERP,5109.1" href="http://en.wikipedia.org/wiki/Hello_world_program#Purpose">
+         Purpose
+        </a>
+        ·
+       </li>
+       <li>
+        <a h="ID=SERP,5110.1" href="http://en.wikipedia.org/wiki/Hello_world_program#History">
+         History
+        </a>
+        ·
+       </li>
+       <li>
+        <a h="ID=SERP,5111.1" href="http://en.wikipedia.org/wiki/Hello_world_program#Variations">
+         Variations
+        </a>
+       </li>
+      </ul>
+     </div>
+    </li>
+    <li class="b_algo">
+     <h2>
+      <a h="ID=SERP,5127.1" href="https://www.hello-world.com/">
+       Total immersion, Serious fun! with
+       <strong>
+        Hello-World
+       </strong>
+       !
+      </a>
+     </h2>
+     <div class="b_caption">
+      <div class="b_attribution" u="1|5049|4984401107553847|X5luTO_GPTjapNNpMKo7ThanE_wL7BqZ">
+       <cite>
+        https://www.
+        <strong>
+         hello-world
+        </strong>
+        .com
+       </cite>
+       <span class="c_tlbxTrg">
+        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5128.1">
+        </span>
+       </span>
+      </div>
+      <p>
+       Main index for
+       <strong>
+        hello-world
+       </strong>
+       : links to login and all of the languages
+      </p>
+     </div>
+    </li>
+    <li class="b_ans">
+     <h2>
+      <a h="ID=SERP,5078.1" href="/images/search?q=hello+world&amp;qpvt=hello+world&amp;FORM=IGRE">
+       Images of
+       <strong>
+        hello world
+       </strong>
+      </a>
+     </h2>
+     <div class="b_attribution">
+      <cite>
+       bing.com/images
+      </cite>
+     </div>
+     <div class="b_rich">
+      <div class="irpsg b_mBMargin irpunit80x80x1x6" id="irpserp">
+       <img src="" style="display:none"/>
+       <div class="b_float">
+        <div id="irp">
+         <div class="sgg" id="irpr" mu="0">
+          <span class="sgpg">
+           <a class="sgur sg00" h="ID=SERP,5272.1" href="/images/search?q=hello+world&amp;id=1AC3DB2FC486937E9CD39C727505857B9F654F00&amp;FORM=IQFRBA" ihk="/th?id=HN.608038000812230965&amp;pid=3.1" m='{k:"5272",ns:"SERP"}' t3="www.cearta.ie">
+            <img class="sgt" src="http://ts1.mm.bing.net/th?id=HN.608038000812230965&amp;w=80&amp;h=80&amp;c=8&amp;pid=3.1"/>
+           </a>
+           <a class="sgur sg10" h="ID=SERP,5273.1" href="/images/search?q=hello+world&amp;id=1B18BC25C2C05AF318F655268FBE9D06C7C1E240&amp;FORM=IQFRBA" ihk="/th?id=HN.608000385493633996&amp;pid=3.1" m='{k:"5273",ns:"SERP"}' t3="www.htmliseasy.com">
+            <img class="sgt" src="http://ts1.mm.bing.net/th?id=HN.608000385493633996&amp;w=80&amp;h=80&amp;c=8&amp;pid=3.1"/>
+           </a>
+           <a class="sgur sg20" h="ID=SERP,5274.1" href="/images/search?q=hello+world&amp;id=4616C495050F17DBAC0228D8D871173666A0C40D&amp;FORM=IQFRBA" ihk="/th?id=HN.608013772905580018&amp;pid=3.1" m='{k:"5274",ns:"SERP"}' t3="playindiegames.wordpress.com">
+            <img class="sgt" src="http://ts1.mm.bing.net/th?id=HN.608013772905580018&amp;w=80&amp;h=80&amp;c=8&amp;pid=3.1"/>
+           </a>
+           <a class="sgur sg30" h="ID=SERP,5275.1" href="/images/search?q=hello+world&amp;id=AAC226EA988B3581B042BD9886F2731585E664DD&amp;FORM=IQFRBA" ihk="/th?id=HN.607994342479564064&amp;pid=3.1" m='{k:"5275",ns:"SERP"}' t3="alternafilms.blogspot.com">
+            <img class="sgt" src="http://ts1.mm.bing.net/th?id=HN.607994342479564064&amp;w=80&amp;h=80&amp;c=8&amp;pid=3.1"/>
+           </a>
+           <a class="sgur sg40" h="ID=SERP,5276.1" href="/images/search?q=hello+world&amp;id=9E1258AC0F95F54F98D6A9E3FC22213E9CB9F694&amp;FORM=IQFRBA" ihk="/th?id=HN.608040655106278941&amp;pid=3.1" m='{k:"5276",ns:"SERP"}' t3="cerebteclabs.blogspot.com">
+            <img class="sgt" src="http://ts1.mm.bing.net/th?id=HN.608040655106278941&amp;w=80&amp;h=80&amp;c=8&amp;pid=3.1"/>
+           </a>
+           <a class="sgur sg50" h="ID=SERP,5277.1" href="/images/search?q=hello+world&amp;id=2A126DD8E88E4A23D881A4178987995EA1815954&amp;FORM=IQFRBA" ihk="/th?id=HN.608028912670280897&amp;pid=3.1" m='{k:"5277",ns:"SERP"}' t3="myfirstiosapp.wordpress.com">
+            <img class="sgt" src="http://ts1.mm.bing.net/th?id=HN.608028912670280897&amp;w=80&amp;h=80&amp;c=8&amp;pid=3.1"/>
+           </a>
+          </span>
+          <div class="clrall">
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="b_float">
+        <a class="ccmc irpmt" h="ID=SERP,5282.1" href="/images/search?q=hello+world&amp;qpvt=hello+world&amp;FORM=IQFRML" style="height:82px;width:25px" title="See more images">
+         <div class="sw_arwh" style="left:5px;top:35px">
+         </div>
+        </a>
+       </div>
+      </div>
+     </div>
+    </li>
+    <li class="b_algo">
+     <h2>
+      <a h="ID=SERP,5139.1" href="http://www.helloworld.com/">
+       <strong>
+        HelloWorld Inc
+       </strong>
+       - Official Site
+      </a>
+     </h2>
+     <div class="b_caption">
+      <div class="b_attribution" u="2|5050|4666822667141512|y3ss5koXMf9KOaCSVfzH5UyOIIIB5qdu">
+       <cite>
+        www.
+        <strong>
+         helloworld
+        </strong>
+        .com
+       </cite>
+       <span class="c_tlbxTrg">
+        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5140.1">
+        </span>
+       </span>
+      </div>
+      <p>
+       Wayman joins senior leadership team. Meet Chris, Chief Client Officer, and learn about this new role at
+       <strong>
+        HelloWorld
+       </strong>
+       .
+      </p>
+     </div>
+    </li>
+    <li class="b_algo">
+     <h2>
+      <a h="ID=SERP,5151.1" href="http://www.helloworldchennai.com/">
+       <strong>
+        Hello World
+       </strong>
+      </a>
+     </h2>
+     <div class="b_caption">
+      <div class="b_attribution" u="3|5051|5003165841820626|J-iepDgG01jjLUoKKpVMjlJwHS6wi4W-">
+       <cite>
+        www.
+        <strong>
+         helloworldchennai
+        </strong>
+        .com
+       </cite>
+       <span class="c_tlbxTrg">
+        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5152.1">
+        </span>
+       </span>
+      </div>
+      <p>
+       A leading chain of mobile stores in
+       <strong>
+        Chennai
+       </strong>
+       ,
+       <strong>
+        Hello World
+       </strong>
+       , founded in 1999, caters to all cellular needs of todays informed buyer.
+      </p>
+     </div>
+    </li>
+    <li class="b_algo">
+     <h2>
+      <a h="ID=SERP,5163.1" href="http://en.wikipedia.org/wiki/List_of_Hello_world_program_examples">
+       List of
+       <strong>
+        Hello world
+       </strong>
+       program examples - Wikipedia, the free ...
+      </a>
+     </h2>
+     <div class="b_caption">
+      <div class="b_attribution" u="4|5052|4633626881557589|Mz-cfTH2nFw7IV13GokcbveFJ8miCEKt">
+       <cite>
+        en.wikipedia.org/wiki/List_of_
+        <strong>
+         Hello_world
+        </strong>
+        _program_examples
+       </cite>
+       <span class="c_tlbxTrg">
+        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5164.1">
+        </span>
+       </span>
+      </div>
+      <p>
+       The
+       <strong>
+        Hello world
+       </strong>
+       program is a simple computer program that prints (or displays) the string "
+       <strong>
+        Hello, world
+       </strong>
+       !" or some variant thereof. It is typically one of ...
+      </p>
+     </div>
+    </li>
+    <li class="b_algo">
+     <h2>
+      <a h="ID=SERP,5183.1" href="http://www.youtube.com/watch?v=al2DFQEZl4M">
+       <strong>
+        Lady Antebellum
+       </strong>
+       -
+       <strong>
+        Hello World
+       </strong>
+       - YouTube
+      </a>
+     </h2>
+     <div class="b_attribution" u="5|5053|4811717690196936|H-bez4GFaJ6MHdHcOJ_Ss3qjlcqZtv89">
+      <cite>
+       www.youtube.com/watch?v=al2DFQEZl4M
+      </cite>
+      <span class="c_tlbxTrg">
+       <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5184.1">
+       </span>
+      </span>
+     </div>
+     <div class="b_caption">
+      <ul class="b_factrow">
+       <li>
+        By LadyAntebellumVEVO ·
+       </li>
+       <li>
+        5 min ·
+       </li>
+       <li>
+        72,07,707 views ·
+       </li>
+       <li>
+        Added 05-11-2010
+       </li>
+      </ul>
+      <p>
+       <span class="news_dt">
+        05-11-2010
+       </span>
+       · Music video by
+       <strong>
+        Lady Antebellum
+       </strong>
+       performing
+       <strong>
+        Hello World
+       </strong>
+       on You Tube.
+      </p>
+     </div>
+    </li>
+    <li class="b_algo">
+     <h2>
+      <a h="ID=SERP,5195.1" href="http://www.gnu.org/fun/jokes/helloworld.html">
+       <strong>
+        Hello World
+       </strong>
+       ! - GNU Project - Free Software Foundation (FSF)
+      </a>
+     </h2>
+     <div class="b_caption">
+      <div class="b_attribution" u="6|5054|4766916877943537|TWuoYVFQJOF3vkbPAGxbIGDGXotJGwL9">
+       <cite>
+        www.gnu.org/fun/jokes/
+        <strong>
+         helloworld
+        </strong>
+        .html
+       </cite>
+       <span class="c_tlbxTrg">
+        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5196.1">
+        </span>
+       </span>
+      </div>
+      <p>
+       <strong>
+        Hello World
+       </strong>
+       ! How the way people code “
+       <strong>
+        Hello World
+       </strong>
+       ” varies depending on their age and job: High School/Jr. High 10 PRINT "
+       <strong>
+        HELLO WORLD
+       </strong>
+       " 20 END
+      </p>
+     </div>
+    </li>
+    <li class="b_algo">
+     <h2>
+      <a h="ID=SERP,5207.1" href="http://msdn.microsoft.com/en-us/library/ms765388(v=vs.85).aspx">
+       <strong>
+        Hello, World
+       </strong>
+       ! (XSLT)
+      </a>
+     </h2>
+     <div class="b_caption">
+      <div class="b_attribution" u="7|5055|5048902937673763|-ybcD7QAeH33-YI11COQePr7fsaTW2wy">
+       <cite>
+        msdn.microsoft.com/en-us/library/ms765388
+       </cite>
+       <span class="c_tlbxTrg">
+        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5208.1">
+        </span>
+       </span>
+      </div>
+      <p>
+       The following example shows a simple but complete XML document transformed by an XSLT style sheet. The source XML document,
+       <strong>
+        hello
+       </strong>
+       .xml, contains a "
+       <strong>
+        Hello, World
+       </strong>
+       !"
+      </p>
+     </div>
+    </li>
+    <li class="b_algo">
+     <h2>
+      <a h="ID=SERP,5219.1" href="http://asp.net-tutorials.com/basics/hello-world/">
+       <strong>
+        Hello, world
+       </strong>
+       ! - The complete ASP.NET Tutorial
+      </a>
+     </h2>
+     <div class="b_caption">
+      <div class="b_attribution" u="8|5056|4579235388785371|nIyQnyxz8z0iZTu75ZbBNZ3FkGCHXZ_S">
+       <cite>
+        asp.net-tutorials.com/basics/
+        <strong>
+         hello-world
+        </strong>
+       </cite>
+       <span class="c_tlbxTrg">
+        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5220.1">
+        </span>
+       </span>
+      </div>
+      <p>
+       In almost every programming tutorial you will find the classic "
+       <strong>
+        Hello, world
+       </strong>
+       !" example, and who am I to break such a fine tradition? Let me show you how you can say ...
+      </p>
+     </div>
+    </li>
+    <li class="b_algo">
+     <h2>
+      <a h="ID=SERP,5231.1" href="http://www.helloworldchennai.com/branches.asp">
+       <strong>
+        Hello World
+       </strong>
+      </a>
+     </h2>
+     <div class="b_caption">
+      <div class="b_attribution" u="9|5057|4818804356875705|R1oMfhADShiPVp2S89q0u779q5sa1441">
+       <cite>
+        www.
+        <strong>
+         helloworldchennai
+        </strong>
+        .com/branches.asp
+       </cite>
+       <span class="c_tlbxTrg">
+        <span class="c_tlbxH" h="BASE:CACHEDPAGEDEFAULT" k="SERP,5232.1">
+        </span>
+       </span>
+      </div>
+      <p>
+       <strong>
+        HELLO WORLD
+       </strong>
+       . Basement Shop #2, Gokul Arcade, #2, Sardar Patel Road, Adyar,
+       <strong>
+        Chennai
+       </strong>
+       - 20 Ph: 044 - 24425573 / 42115215
+      </p>
+     </div>
+    </li>
+    <li class="b_ans">
+     <div class="b_rs">
+      <h2>
+       Related searches for
+       <strong>
+        hello world
+       </strong>
+      </h2>
+      <div class="b_rich">
+       <div class="b_vlist2col">
+        <ul>
+         <li>
+          <a h="ID=SERP,5293.1" href="/search?q=Java+HelloWorld+Program&amp;FORM=QSRE1">
+           <strong>
+            Java
+           </strong>
+           <strong>
+            HelloWorld
+           </strong>
+           <strong>
+            Program
+           </strong>
+          </a>
+         </li>
+         <li>
+          <a h="ID=SERP,5294.1" href="/search?q=HelloWorld+Program+in+C&amp;FORM=QSRE2">
+           <strong>
+            HelloWorld
+           </strong>
+           <strong>
+            Program
+           </strong>
+           <strong>
+            in
+           </strong>
+           <strong>
+            C
+           </strong>
+          </a>
+         </li>
+         <li>
+          <a h="ID=SERP,5295.1" href="/search?q=HelloWorld+Adyar&amp;FORM=QSRE3">
+           <strong>
+            HelloWorld
+           </strong>
+           <strong>
+            Adyar
+           </strong>
+          </a>
+         </li>
+         <li>
+          <a h="ID=SERP,5296.1" href="/search?q=Nokia+Showroom+Chennai&amp;FORM=QSRE4">
+           <strong>
+            Nokia
+           </strong>
+           <strong>
+            Showroom
+           </strong>
+           <strong>
+            Chennai
+           </strong>
+          </a>
+         </li>
+        </ul>
+        <ul>
+         <li>
+          <a h="ID=SERP,5297.1" href="/search?q=Steve+Taylor&amp;FORM=QSRE5">
+           <strong>
+            Steve
+           </strong>
+           <strong>
+            Taylor
+           </strong>
+          </a>
+         </li>
+         <li>
+          <a h="ID=SERP,5298.1" href="/search?q=Dan+Zadra&amp;FORM=QSRE6">
+           <strong>
+            Dan
+           </strong>
+           <strong>
+            Zadra
+           </strong>
+          </a>
+         </li>
+         <li>
+          <a h="ID=SERP,5299.1" href="/search?q=Hello+World+in+Android&amp;FORM=QSRE7">
+           Hello World
+           <strong>
+            in
+           </strong>
+           <strong>
+            Android
+           </strong>
+          </a>
+         </li>
+         <li>
+          <a h="ID=SERP,5300.1" href="/search?q=Hello+World+in+Java&amp;FORM=QSRE8">
+           Hello World
+           <strong>
+            in
+           </strong>
+           <strong>
+            Java
+           </strong>
+          </a>
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </li>
+    <li class="b_pag">
+     <nav aria-label="navigation">
+      <h4 class="b_hide">
+       Pagination
+      </h4>
+      <ul class="sb_pagF">
+       <li>
+        <a class="sb_pagS">
+         1
+        </a>
+       </li>
+       <li>
+        <a h="ID=SERP,5262.1" href="/search?q=hello+world&amp;first=11&amp;FORM=PERE">
+         2
+        </a>
+       </li>
+       <li>
+        <a h="ID=SERP,5263.1" href="/search?q=hello+world&amp;first=21&amp;FORM=PERE1">
+         3
+        </a>
+       </li>
+       <li>
+        <a h="ID=SERP,5264.1" href="/search?q=hello+world&amp;first=31&amp;FORM=PERE2">
+         4
+        </a>
+       </li>
+       <li>
+        <a h="ID=SERP,5265.1" href="/search?q=hello+world&amp;first=41&amp;FORM=PERE3">
+         5
+        </a>
+       </li>
+       <li>
+        <a class="sb_pagN" h="ID=SERP,5266.1" href="/search?q=hello+world&amp;first=11&amp;FORM=PORE" title="Next ">
+         <div class="sw_next">
+          Next
+         </div>
+        </a>
+       </li>
+      </ul>
+     </nav>
+    </li>
+   </ol>
+   <ol id="b_context">
+    <li class="b_ans">
+     <h2>
+      Related searches
+     </h2>
+     <ul class="b_vList">
+      <li>
+       <a h="ID=SERP,5304.1" href="/search?q=Java+HelloWorld+Program&amp;FORM=R5FD">
+        <strong>
+         Java
+        </strong>
+        <strong>
+         HelloWorld
+        </strong>
+        <strong>
+         Program
+        </strong>
+       </a>
+      </li>
+      <li>
+       <a h="ID=SERP,5305.1" href="/search?q=HelloWorld+Program+in+C&amp;FORM=R5FD1">
+        <strong>
+         HelloWorld
+        </strong>
+        <strong>
+         Program
+        </strong>
+        <strong>
+         in
+        </strong>
+        <strong>
+         C
+        </strong>
+       </a>
+      </li>
+      <li>
+       <a h="ID=SERP,5306.1" href="/search?q=HelloWorld+Adyar&amp;FORM=R5FD2">
+        <strong>
+         HelloWorld
+        </strong>
+        <strong>
+         Adyar
+        </strong>
+       </a>
+      </li>
+      <li>
+       <a h="ID=SERP,5307.1" href="/search?q=Nokia+Showroom+Chennai&amp;FORM=R5FD3">
+        <strong>
+         Nokia
+        </strong>
+        <strong>
+         Showroom
+        </strong>
+        <strong>
+         Chennai
+        </strong>
+       </a>
+      </li>
+      <li>
+       <a h="ID=SERP,5308.1" href="/search?q=Steve+Taylor&amp;FORM=R5FD4">
+        <strong>
+         Steve
+        </strong>
+        <strong>
+         Taylor
+        </strong>
+       </a>
+      </li>
+      <li>
+       <a h="ID=SERP,5309.1" href="/search?q=Dan+Zadra&amp;FORM=R5FD5">
+        <strong>
+         Dan
+        </strong>
+        <strong>
+         Zadra
+        </strong>
+       </a>
+      </li>
+      <li>
+       <a h="ID=SERP,5310.1" href="/search?q=Hello+World+in+Android&amp;FORM=R5FD6">
+        Hello World
+        <strong>
+         in
+        </strong>
+        <strong>
+         Android
+        </strong>
+       </a>
+      </li>
+      <li>
+       <a h="ID=SERP,5311.1" href="/search?q=Hello+World+in+Java&amp;FORM=R5FD7">
+        Hello World
+        <strong>
+         in
+        </strong>
+        <strong>
+         Java
+        </strong>
+       </a>
+      </li>
+     </ul>
+    </li>
+   </ol>
+  </div>
+  <footer class="b_footer">
+   <table>
+    <tr>
+     <th>
+      Learn more
+     </th>
+     <th>
+      Info for
+     </th>
+     <th>
+      Support
+     </th>
+    </tr>
+    <tr>
+     <td>
+      <a h="ID=SERP,5326.1" href="http://go.microsoft.com/fwlink/?LinkId=248686&amp;CLCID=4009">
+       Privacy and Cookies
+      </a>
+     </td>
+     <td>
+      <a h="ID=SERP,5328.1" href="http://go.microsoft.com/?linkid=9844321">
+       Advertise
+      </a>
+     </td>
+     <td>
+      <a h="ID=SERP,5329.1" href="http://onlinehelp.microsoft.com/en-IN/bing/ff808535.aspx" id="sb_help" target="_blank">
+       Help
+      </a>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <a h="ID=SERP,5327.1" href="http://go.microsoft.com/fwlink/?LinkID=246338&amp;CLCID=4009">
+       Legal
+      </a>
+     </td>
+     <td>
+     </td>
+     <td>
+      <a h="ID=SERP,5330.1" href="#" id="sb_feedback">
+       Feedback
+      </a>
+     </td>
+    </tr>
+   </table>
+   <span class="b_footerRight">
+    <div class="b_fLogo" title="© 2014 Microsoft">
+    </div>
+    <span>
+     © 2014 Microsoft
+    </span>
+   </span>
+  </footer>
+  <div class="sb_hbop">
+   <div class="b_hide b_dropdown " id="d5255">
+    <div class="ftrD">
+     <a class="b_toggle" h="ID=SERP,5253.1" href="/search?q=hello+world&amp;lf=1&amp;qpvt=hello+world">
+      Only English
+     </a>
+     <a class="b_toggle" h="ID=SERP,5254.1" href="/account/web?sh=5&amp;ru=%2fsearch%3fq%3dhello%2520world%26first%3d0&amp;qpvt=hello+world">
+      More
+     </a>
+    </div>
+   </div>
+   <div class="b_hide b_dropdown " id="d5259">
+    <div class="ftrD">
+     <a class="b_toggle" h="ID=SERP,5258.1" href="/search?q=hello+world&amp;rf=1&amp;qpvt=hello+world">
+      Only from India
+     </a>
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript">
+   //<![CDATA[
+sa_loader=function(){_w.rms.js({'rms:answers:AutoSuggest:AutoSugBlue':'\/rms\/AutoSugBlue\/jc\/7bac6419\/d37da172.js?bu=rms+answers+AutoSuggest+Modules%24Service.source%2cApi.source%2cDataProviders%24GenericDataProvider.source%2cAutoSuggestCanvas_r.source%2cAutoSuggestLayoutBlue_r.source%2cAutoSuggestSearchForm_r.source%2cAutoSuggestSpelling_r.source%2cAutoSuggestHighConfGhosting_r.source%2cAutoSuggestInit_r.source&y',d:1});};;_w.rms.js({'A:0':0},{'A:Shared.Bundle':'\/rms\/Shared.Bundle\/jc\/e73e84c4\/fd1941e9.js?bu=rms+serp+Shared%24shared_c.source%2cShared%24env_c.source%2cShared%24event.custom_c.source%2cShared%24event.native_c.source%2cShared%24onHTML_c.source%2cShared%24dom_c.source%2cShared%24cookies_c.source%2cShared%24rms_c.source%2cShared%24clientinst_c.source%2cShared%24replay_c.source%2cAnimation_c.source%2cfadeAnimation_c.source%2cShared%24framework_c.source&y'},{'A:rms:answers:BoxModel:Framework':'\/rms\/Framework\/jc\/ca10ac32\/c2e5e741.js?bu=rms+answers+BoxModel+config.source%2crules%24rulesBHead2.source%2ccore.source%2cmodules%24scroll.source%2cmodules%24resize.source%2cmodules%24visibility.source%2cmodules%24mutation.source%2cmodules%24validation.source%2cmodules%24network.source&y'},{'A:rms:answers:Identity:BlueIdentityDropdownBootstrap':'\/rms\/rms%20answers%20Identity%20Blue$BlueIdentityDropdownBootStrap_c.source\/jc\/00090e18\/04592351.js?y'},{'A:rms:answers:Identity:BlueIdentityHeader':'\/rms\/rms%20answers%20Identity%20Blue$BlueIdentityHeader_c.source\/jc\/a532b6a0\/b5d667f1.js?y'},{'A:1':1},{'A:rms:answers:Identity:SnrWindowsLiveConnectBootstrap':'\/rms\/rms%20answers%20Identity%20SnrWindowsLiveConnectBootstrap_c.source\/jc\/aac9ed75\/fd0be0a1.js?y'},{'A:rms:answers:SegmentFilters:DropDown':'\/rms\/rms%20answers%20SegmentFilters%20Blue$GenericDropDown_c.source\/jc\/c6b3fc43\/25ba9f91.js?y'},{'A:WebResultToolbox':'\/rms\/rms%20serp%20blue$WebResultToolbox.source\/jc\/5a26790d\/7b473670.js?y'},{'A:MMRichHover':'\/rms\/rms%20serp%20MMRichHover_c.source\/jc\/44cf79e1\/359283a7.js?y'},{'A:ImageRichHover':'\/rms\/rms%20serp%20ImageRichHover_c.source\/jc\/7018766e\/5c160ee7.js?y'},{'A:rms:answers:Multimedia:SuperGrid2':'\/rms\/rms%20answers%20Multimedia%20SuperGrid2_c.source\/jc\/0dbd6673\/5db8f905.js?y'},{'A:rms:answers:Multimedia:SuperGridView2':'\/rms\/rms%20answers%20Multimedia%20SuperGridView2_c.source\/jc\/45dfc454\/fc0572a5.js?y'},{'A:rms:answers:Multimedia:answerIrpOnSerp':'\/rms\/rms%20answers%20Multimedia%20answerIrpOnSerp_c.source\/jc\/a84433f6\/529914a8.js?y'},{'A:2':2});;
+//]]>
+  </script>
+  <div id="aRmsDefer">
+   <div style="display:none">
+    <!--//<![CDATA[
+var Identity = Identity || {};(function(i){i.wlImgSm = "https://cid-{0}.users.storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileStatic/p?ck=1\u0026ex=720\u0026fofoff=1\u0026sid=2437F541AFF4461484C930041B5D2EB5";i.wlImgLg = "https://cid-{0}.users.storage.live.com/users/0x{0}/myprofile/expressionprofile/profilephoto:UserTileMedium/p?ck=1\u0026ex=720\u0026fofoff=1\u0026sid=2437F541AFF4461484C930041B5D2EB5";i.popupLoginUrls ={"WindowsLiveId":"https://login.live.com/login.srf?wa=wsignin1.0\u0026rpsnv=11\u0026ct=1420089220\u0026rver=6.0.5286.0\u0026wp=MBI\u0026wreply=https:%2F%2fssl.bing.com%2Fsecure%2FPassport.aspx%3Fpopup%3D1\u0026lc=16393\u0026id=264960"};})(Identity);;(function(){function n(){var n="SRCHHPGUSR",r=sj_cook.get(n,"CW"),t,i;r&&r==sj_b.clientWidth||sj_cook.set(n,"CW",sb_de.clientWidth||sj_b.clientWidth,1,"/"),t=sj_cook.get(n,"CH"),t&&t==sb_de.clientHeight||sj_cook.set(n,"CH",sb_de.clientHeight,1,"/"),i=sj_cook.get(n,"DPR"),typeof _w.devicePixelRatio=="undefined"||i&&i==_w.devicePixelRatio||sj_cook.set(n,"DPR",_w.devicePixelRatio,1,"/")}sj_be(_w,"load",n),sj_be(_w,"resize",n)})();(function(){sb_ie&&sj_evt.bind("onP1",function(){sj_jb("UpdateDefaults",0)},1,50)})();sa_CTBConfig={"TRGT":"Actions for this site","CU":"http://cc.bingj.com/cache.aspx?q=hello+world\u0026d={0}\u0026mkt=en-IN\u0026setlang=en-US\u0026w={1}","CT":"Cached page","NW":"0"};var fbpkgiid = fbpkgiid || {};fbpkgiid.page = 'SERP.5331';;var Feedback;(function(n){(function(t){function i(t,r,u){if(typeof n=="undefined"||typeof jQuery=="undefined"){setTimeout(function(){i(t,r,u)},50);return}n.PackageLoad.Load(t,r,u)}function r(n,t,r,u,f){var e=_ge(t);f=typeof f=="undefined"?!1:f,e!==null&&sj_be(e,"click",function(o){if(f&&e.classList){if(e.classList.contains("clicked"))return!1;e.classList.add("clicked")}LoadJQuery(),sj_pd(o),sj_sp(o),u=typeof u=="undefined"?!1:u,u&&scrollTo(0,0),r=typeof r=="undefined"?!0:r,i(n,r,t)})}t.InitializeFeedback=r})(n.Bootstrap||(n.Bootstrap={}));var t=n.Bootstrap})(Feedback||(Feedback={})),function(n){(function(n){"use strict";function f(){return _d.documentElement.outerHTML}function h(n,i,r){var f;i=typeof i=="undefined"?!0:i,r=typeof r=="undefined"?"":r;for(f in n)i?n.hasOwnProperty(f)&&typeof u[f]=="undefined"&&t(f,r):t(f,r)}function t(n,t){var h,y="",a=_G.IG,v=typeof _G.V=="undefined"?_G.P:_G.V,l="/feedback/",p,o,f,c=r();o=l+n+"?ig="+a+"&p="+v,typeof fbpkgiid!="undefined"&&typeof fbpkgiid[n]!="undefined"&&(o+="&iid="+fbpkgiid[n]),(f=location.href.match(/[?&]testhooks=[^?&#]*/i))&&f[0]&&(o+="&"+f[0].substring(1)),(f=location.href.match(/[?&]hoseassistant=[^?&#]*/i))&&f[0]&&(o+="&"+f[0].substring(1)),(f=location.href.match(/[?&]hose=[^?&#]*/i))&&f[0]&&(o+="&"+f[0].substring(1)),(f=location.href.match(/[?&]theme=[^?&#]*/i))&&f[0]&&(o+="&"+f[0].substring(1)),typeof t!="undefined"&&t!==""&&(o+="&fid="+encodeURIComponent(t)),c.length==0?$.ajax({url:o,success:i}):(h=e("GET",o,!0),h.onreadystatechange=function(){return s(h)},h.send()),u[n]=!0}function s(n){_ge("sb_feedback").removeAttribute("clicked"),n.readyState==4&&n.status==200&&i(n.response)}function i(n){$("body").append(n)}function o(n){var t=sj_ce("div","");return t.innerHTML=n,t.childNodes.length===0?"":t.childNodes[0].nodeValue}function r(){for(var t=_d.getElementsByTagName("meta"),i,n=0;n<t.length;n++)if(t[n].name==="bing-headers")try{i=JSON.parse(t[n].getAttribute("value"))}catch(r){}return i||[]}function e(n,t,i){var e=sj_gx(),f,u;e.open(n,t,i),f=r();for(u in f)e.setRequestHeader(u,o(f[u]));return e}var u={};n.originalHTML=f(),n.GetHTML=f,n.Load=h})(n.PackageLoad||(n.PackageLoad={}));var t=n.PackageLoad}(Feedback||(Feedback={}));sa_config={"u":"%2fAS%2fSuggestions%3fpt%3dpage.serp%26bq%3dhello%2bworld%26qry%3d","mkt":"en-IN","f":"sb_form","i":"sb_form_q","c":"sw_as","sid":"2437F541AFF4461484C930041B5D2EB5","asf":1,"smg":1,"t":1,"eHS":1,"eHC":1,"v":1,"d":100,"SCT":1500};;var sa_eL=!1,sj_evas,sj_etas;if(function(){function e(t,i,r,f){t&&sj_ue(t,i,e),sa_eL=sa_eL||n.eAI?r&&f.keyCode!==27:r,u||(u=!0,sa_loader())}function r(n,t,i){sj_be(n,t,function(r){e(n,t,i,sj_ev(r))})}var f=_ge("sa_qs"),n,t,i,u;f.value="bs",n=sa_config,t=_ge(n.i),t.setAttribute("autocomplete","off"),i=_ge(n.c),i||(i=sj_ce("div"),i.id=n.c,f.parentNode.appendChild(i)),u=!1,r(t,"click",!0),r(t,"keydown",!0),n.eAI&&r(t,"keyup",!0),n.ol&&r(_w,"load")}(),sj_evas=sj_ev,sj_etas=sj_et,sa_config.ic&&sb_ie){function getIframeWindow(){return _ge("sa_con").contentWindow}sj_evas=function(){return getIframeWindow().event},sj_etas=function(){var n=getIframeWindow().event;return n?n.srcElement:null}};
+//]]>-->
+   </div>
+   <div style="display:none">
+    <!--//<![CDATA[
+var wlc=function(n,t,i){var u,e,f,r;n&&Identity&&(u=Identity.popupLoginUrls)&&(e=u.WindowsLiveId)&&(f=Identity.wlProfile)&&f()==null&&(r=_d.createElement("iframe"),r.style.display="none",r.src=e+"&checkda=1",_d.body.appendChild(r),i&&t&&t("WLS","TS",i,0,"/"))};
+//]]>-->
+   </div>
+   <div style="display:none">
+    <!--//<![CDATA[
+LoadJQuery=function(){_w.rms.js({'rms:answers:Feedback:FeedbackJQuery':'\/rms\/rms%20answers%20Feedback%20CustomJQuery.min.source\/jc\/0c419801\/ca6dc37d.js?y',d:1});};Feedback.Bootstrap.InitializeFeedback({page:true},"sb_feedback",1,0,0);;
+//]]>-->
+   </div>
+  </div>
+  <script type="text/javascript">
+   //<![CDATA[
+_G.BST=new Date
+//]]>
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+(function(){function t(){_w.sb_ppCPL||sb_st(function(){si_PP(new Date)},0)}var n=_w.onload||function(){};onload=function(i){_G.BPT=new Date,n(i),t()},_G.HT=new Date})()
+//]]>
+  </script>
+ </body>
+</html>
