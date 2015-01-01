@@ -19,7 +19,7 @@ A Python module to fetch and parse results from different search engines.
 Current release: 0.1.1.1
 
 Needs Python3.
-Install from pip: `pip install py-web-search`
+Install using pip: `pip install py-web-search`
 
 ## Usage
 
