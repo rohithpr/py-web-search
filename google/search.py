@@ -66,12 +66,13 @@ class Google:
                 'url' : url,
                 'num' : num,
                 'start' : start,
+                'search_engine': 'google',
         }
         return temp
 
     @staticmethod
     def scrape_search_result(soup):
-        number_of_results = soup.find('div', attrs = {'id' : 'resultStats'}).string
+        number_of_results = try_cast_int(soup.find('div', attrs = {'id' : 'resultStats'}).string)
         raw_results = soup.find_all('li', attrs = {'class' : 'g'})
         results = []
         

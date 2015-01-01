@@ -18,12 +18,12 @@ Needs Python3.
     from google.search import Google
     print (Google.search('hello world', 5, 2))
 ```
-Returns 5 results from the the third result onwards (ignores the first two) in the following format.
+Prints 5 results from the the third result onwards (ignores the first two) in the following format.
 
 ```
     {
         'url': '...',
-        'num': 5
+        'num': 5,
         'start': 2,
         'results':
         [
