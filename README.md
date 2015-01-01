@@ -4,9 +4,15 @@ A Python module to fetch and parse results from different search engines.
 
 ### Table of Contents
 
+* [Support](#search-engines-supported)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Features](#features)
+* [Todo](#todo)
+
+## Search engines supported
+
+* Google
+* Bing
 
 ## Installation
 
@@ -17,8 +23,11 @@ Needs Python3.
 ```python
     from google.search import Google
     print (Google.search('hello world', 5, 2))
+
+    # from bing.search import Bing
+    # print (Bing.search('hello world', 5, 2))
 ```
-Prints 5 results from the the third result onwards (ignores the first two) in the following format.
+Prints 5 results from the the third result onwards (ignores the first 2) in the following format.
 
 ```
     {
@@ -43,14 +52,7 @@ Prints 5 results from the the third result onwards (ignores the first two) in th
     }
 ```
 
-## Features
-
-
-### Currently implemented
-
-* Google search (text)
-
-### Todo
+## Todo
 
 * Other search engines
 * Images etc.

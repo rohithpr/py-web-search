@@ -34,7 +34,7 @@ def generate_url(query, num, start):
     """(str, str, str) -> str
     A url in the required format is generated.
     """
-    url = '+'.join(query.split())
+    query = '+'.join(query.split())
     url = 'https://www.google.com/search?q=' + query + '&num=' + num + '&start=' + start
     return url
 
