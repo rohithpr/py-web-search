@@ -16,7 +16,7 @@ A Python module to fetch and parse results from different search engines.
 
 ## Installation
 
-Current release: 0.1.1.1
+Current release: 0.1.1.3
 
 Needs Python3.
 Install using pip: `pip install py-web-search`
@@ -27,8 +27,8 @@ Install using pip: `pip install py-web-search`
     from pws.google import Google
     from pws.bing import Bing
 
-    print(Google.search('hello world', 1))
-    print(Bing.search('hello world', 1))
+    print(Google.search('hello world', 5, 2))
+    print(Bing.search('hello world', 5, 2))
 ```
 Prints 5 results from the the third result onwards (ignores the first 2) in the following format.
 
