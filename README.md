@@ -21,11 +21,11 @@ Needs Python3.
 ## Usage
 
 ```python
-    from google.search import Google
-    print (Google.search('hello world', 5, 2))
+    from pws.google import Google
+    from pws.bing import Bing
 
-    # from bing.search import Bing
-    # print (Bing.search('hello world', 5, 2))
+    print(Google.search('hello world', 1))
+    print(Bing.search('hello world', 1))
 ```
 Prints 5 results from the the third result onwards (ignores the first 2) in the following format.
 
