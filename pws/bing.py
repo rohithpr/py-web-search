@@ -37,7 +37,6 @@ def generate_url(query, first):
     """
     query = '+'.join(query.split())
     url = 'http://www.bing.com/search?q=' + query + '&first=' + first
-    print (url)
     return url
 
 def try_cast_int(s):
