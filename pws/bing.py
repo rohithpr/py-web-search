@@ -1,8 +1,8 @@
 from bs4 import BeautifulSoup
+from html.parser import HTMLParser
+from time import sleep as wait
 import re
 import requests
-from html.parser import HTMLParser
-from time import sleep
 
 ##################################################
 # Copied code
@@ -30,13 +30,28 @@ def strip_tags(html):
 # Helpers
 ##################################################
 
-# http://www.bing.com/search?q=hello+world&first=9
-def generate_url(query, first):
+# Best: http://www.bing.com/search?q=hello+world&first=9
+# Recent: http://www.bing.com/search?q=hello+world&filters=ex1%3a%22ez1%22
+def generate_url(query, first, recent):
     """(str, str) -> str
     A url in the required format is generated.
     """
     query = '+'.join(query.split())
     url = 'http://www.bing.com/search?q=' + query + '&first=' + first
+    if recent:
+        url = url + '&filters=ex1%3a%22ez1%22'
+    return url
+
+# Best: http://www.bing.com/news/search?q=hello+world&first=11
+# Recent: http://www.bing.com/news/search?q=hello+world&qft=sortbydate%3d%221%22
+def generate_news_url(query, first, recent):
+    """(str, str) -> str
+    A url in the required format is generated.
+    """
+    query = '+'.join(query.split())
+    url = 'http://www.bing.com/news/search?q=' + query + '&first' + first
+    if recent:
+        url = url + '&qft=sortbydate%3d%221%22'
     return url
 
 def try_cast_int(s):
@@ -54,31 +69,38 @@ def try_cast_int(s):
 # Class
 ##################################################
 
-
 class Bing:
     @staticmethod
-    def search(query, num=10, start=0):
+    def search_common(query, num, start, sleep, recent, generator, scraper):
         results = []
+        _start = start # Remembers the initial value of start for later use
+        _url = None
         while len(results) < num:
-            # sleep(1)
-            url = generate_url(query, str(start))
+            if sleep: # Prevents loading too many pages too soon
+                wait(1)
+            url = generator(query, str(start), recent)
+            if _url is None:
+                _url = url # Remembers the first url that is generated
             soup = BeautifulSoup(requests.get(url).text)
-            new_results = Bing.scrape_search_result(soup)
+            new_results = scraper(soup)
             results += new_results
             start += len(new_results)
         results = results[:num]
 
         temp = {'results' : results,
-                'url' : url,
+                'url' : _url,
                 'num' : num,
-                'start' : start,
+                'start' : _start,
                 'search_engine' : 'bing',
         }
         return temp
 
     @staticmethod
+    def search(query, num=10, start=0, sleep=True, recent=True):
+        return Bing.search_common(query, num, start, sleep, recent, generate_url, Bing.scrape_search_result)
+
+    @staticmethod
     def scrape_search_result(soup):
-        number_of_results = try_cast_int(soup.find('span', attrs = {'class' : 'sb_count'}).string)
         raw_results = soup.find_all('li', attrs = {'class' : 'b_algo'})
         results = []
 
@@ -92,9 +114,9 @@ class Bing:
 
             raw_link_info = result.find('div', attrs = {'class' : 'b_caption'})
             description = raw_link_info.find('div', attrs = {'class' : 'b_snippet'})
-            if description is None:
+            if description is None: # If there aren't any additional links
                 link_info = strip_tags(str(raw_link_info.find('p')))
-            else:
+            else: # If there are any additional links
                 link_info = strip_tags(str(description))
                 for a_link in raw_link_info.find_all('a'):
                     additional_links[strip_tags(str(a_link))] = a_link.get('href')
@@ -105,5 +127,40 @@ class Bing:
                      'additional_links' : additional_links,
             }
             results.append(temp)
+        return results
 
+    @staticmethod
+    def search_news(query, num=10, start=0, sleep=True, recent=True):
+        return Bing.search_common(query, num, start, sleep, recent, generate_news_url, Bing.scrape_news_result)
+
+    @staticmethod
+    def scrape_news_result(soup):
+        raw_results = soup.find_all('div', attrs = {'class' : 'sn_r'})
+        results = []
+
+        for result in raw_results:
+            link = result.find('a').get('href')
+
+            raw_link_text = result.find('a')
+            link_text = strip_tags(str(raw_link_text))
+
+            additional_links = dict() # For consistancy
+
+            raw_link_info = result.find('span', attrs = {'class' : 'sn_snip'})
+            link_info = strip_tags(str(raw_link_info))
+
+            raw_source = result.find('cite', attrs = {'class' : 'sn_src'})
+            source = strip_tags(str(raw_source))
+
+            raw_time = result.find('span', attrs = {'class' : 'sn_tm'})
+            time = strip_tags(str(raw_time))
+
+            temp = { 'link' : link,
+                     'link_text' : link_text,
+                     'link_info' : link_info,
+                     'additional_links' : additional_links,
+                     'source' : source,
+                     'time' : time,
+            }
+            results.append(temp)
         return results
