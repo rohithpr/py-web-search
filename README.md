@@ -42,7 +42,7 @@ Install using pip:
     # num: Default 10. The number of results returned.
     # start: Default 0. The number of top results that are to be ignored.
     # sleep: Default True. If True, the program will wait for a second, when applicable, to avoid overwhelming the servers.
-    # recent: Default True. If True that most recent results are obtained else top results are obtained. (Buggy)
+    # recent: Default True. If True the most recent results are obtained else top results are obtained. (Buggy)
 ```
 Prints 5 results from the the third result onwards (ignores the first 2) in the following format.
 
@@ -76,12 +76,12 @@ Prints 5 results from the the third result onwards (ignores the first 2) in the 
     print(Bing.search_news('github', 10, 0, True, True))
     
     # Arguments:
-    # search(query, num, start, sleep, recent)
+    # search_news(query, num, start, sleep, recent)
     # query: Required. The keyword that will be searched.
     # num: Default 10. The number of results returned.
     # start: Default 0. The number of top results that are to be ignored.
     # sleep: Default True. If True, the program will wait for a second, when applicable, to avoid overwhelming the servers.
-    # recent: Default True. If True that most recent results are obtained else top results are obtained. (Buggy)
+    # recent: Default True. If True the most recent results are obtained else top results are obtained. (Buggy)
 ```
 Prints 10 results from the the first result onwards (ignores the first 0) in the following format.
 
