@@ -13,8 +13,8 @@ A Python module to fetch and parse results from different search engines.
 
 ## Search engines supported
 
-* Google
-* Bing
+* Google: web
+* Bing: news, web
 
 ## Installation
 
