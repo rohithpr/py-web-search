@@ -13,8 +13,8 @@ A Python module to fetch and parse results from different search engines.
 
 ## Search engines supported
 
-* Google: web
-* Bing: news, web
+* Google: [web](#web-search)
+* Bing: [news](#news-search), [web](#web-search)
 
 ## Installation
 
@@ -83,25 +83,23 @@ Prints 5 results from the the third result onwards (ignores the first 2) in the 
     # sleep: Default True. If True, the program will wait for a second, when applicable, to avoid overwhelming the servers.
     # recent: Default True. If True that most recent results are obtained else top results are obtained. (Buggy)
 ```
-Prints 5 results from the the third result onwards (ignores the first 2) in the following format.
+Prints 10 results from the the first result onwards (ignores the first 0) in the following format.
 
 ```
     {
         'url': '...',
-        'num': 5,
-        'start': 2,
-        'search_engine': 'google',
+        'num': 10,
+        'start': 0,
+        'search_engine': 'bing',
         'results':
         [
             {
                 'link': '...',
                 'link_text': '...',
                 'link_info': '...',
-                'additional_links':
-                {
-                    linktext: link,
-                    ...
-                }
+                'source': '...',
+                'time': '...',
+                'additional_links':{}, # Always empty.
             },
             ...
         ]
