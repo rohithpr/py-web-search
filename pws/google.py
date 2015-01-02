@@ -1,7 +1,8 @@
 from bs4 import BeautifulSoup
+from html.parser import HTMLParser
+from time import sleep as wait
 import re
 import requests
-from html.parser import HTMLParser
 
 ##################################################
 # Copied code
@@ -38,6 +39,21 @@ def generate_url(query, num, start):
     url = 'https://www.google.com/search?q=' + query + '&num=' + num + '&start=' + start
     return url
 
+# Sortbydate: tbs=sbd:1
+# Best:      https://www.google.co.in/search?q=hello+world&tbm=nws#q=hello+world&tbas=0&tbm=nws
+# 1 hour:    &tbs=qdr:h
+# 1 day:     &tbs=qdr:d
+# 1 week:    &tbs=qdr:w
+# 1 month:   &tbs=qdr:m
+# 1 year:    &tbs=qdr:y
+def generate_news_url(query, num, start, recent):
+    query = '+'.join(query.split())
+    url = 'https://www.google.com/search?q=' + query + '&num=' + num + '&start=' + start
+    url += '&tbm=nws#q=' + query + '&tbas=0&tbs=sbd:1&tbm=nws'
+    if recent in ['h', 'd', 'w', 'm', 'y']:
+        url += '&tbs=qdr:' + recent
+    return url
+
 def try_cast_int(s):
     """(str) -> int
     All the digits in a given string are concatenated and converted into a single number.
@@ -56,10 +72,11 @@ def try_cast_int(s):
 
 class Google:
     @staticmethod
-    def search(query, num=10, start=0):
+    def search(query, num=10, start=0, sleep=True):
+        if sleep:
+            wait(1)
         url = generate_url(query, str(num), str(start))
         soup = BeautifulSoup(requests.get(url).text)
-        # print(soup.prettify())
         results = Google.scrape_search_result(soup)
 
         temp = {'results' : results,
@@ -72,7 +89,6 @@ class Google:
 
     @staticmethod
     def scrape_search_result(soup):
-        number_of_results = try_cast_int(soup.find('div', attrs = {'id' : 'resultStats'}).string)
         raw_results = soup.find_all('li', attrs = {'class' : 'g'})
         results = []
         
@@ -83,7 +99,6 @@ class Google:
             link_text = strip_tags(str(raw_link_text))
             
             raw_link_info = result.find('span', attrs = {'class' : 'st'})
-            # print(raw_link_info, '\n\n\n')
             link_info = strip_tags(str(raw_link_info))
 
             additional_links = dict()
@@ -98,5 +113,63 @@ class Google:
                      'additional_links' : additional_links,
             }
 
+            results.append(temp)
+        return results
+
+    @staticmethod
+    def search_news(query, num=10, start=0, sleep=True, recent=None):
+        if sleep:
+            wait(1)
+        url = generate_news_url(query, str(num), str(start), recent)
+        soup = BeautifulSoup(requests.get(url).text)
+        results = Google.scrape_news_result(soup)
+
+        temp = {'results' : results,
+                'url' : url,
+                'num' : num,
+                'start' : start,
+                'search_engine' : 'google',
+        }
+        return temp
+
+    @staticmethod
+    def scrape_news_result(soup):
+        raw_results = soup.find_all('li', attrs = {'class' : 'g'})
+        results = []
+
+        for result in raw_results:
+            link = result.find('a').get('href')[7:]
+
+            raw_link_text = result.find('a')
+            link_text = strip_tags(str(raw_link_text))
+
+            raw_link_info = result.find('div', attrs = {'class' : 'st'})
+            link_info = strip_tags(str(raw_link_info))
+
+            raw_source = result.find('span', attrs = {'class' : 'f'})
+            raw_source = strip_tags(str(raw_source)).split(' - ')
+
+            source = raw_source[0]
+            time = raw_source[1]
+
+            additional_links = dict()
+
+            # Crazy hack! Fix it. + Buggy!
+            try:
+                raw_a_links = result.find_all('a')[1:]
+                if raw_a_links:
+                    raw_source = list(map(strip_tags, list(map(str, result.find_all('span', attrs = {'class' : 'f'})[1:]))))
+                    for idx in range(len(raw_a_links)-1):
+                        additional_links[strip_tags(str(raw_a_links[idx]))] = (raw_a_links[idx].get('href'), raw_source[idx])
+            except:
+                pass
+
+            temp = { 'link' : link,
+                     'link_text' : link_text,
+                     'link_info' : link_info,
+                     'additional_links' : additional_links,
+                     'source' : source,
+                     'time' : time,
+            }
             results.append(temp)
         return results
