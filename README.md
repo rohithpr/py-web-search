@@ -1,7 +1,8 @@
 # py-web-search
 
-A Python module to fetch and parse results from different search engines.
 [![Latest Version](https://pypip.in/version/py-web-search/badge.svg)](https://pypi.python.org/pypi/py-web-search/)
+
+A Python module to fetch and parse results from different search engines.
 
 ### Table of Contents
 
