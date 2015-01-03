@@ -99,7 +99,7 @@ Prints 10 results from the the first result onwards (ignores the first 0) in the
                 'link_info': '...',
                 'source': '...',
                 'time': '...',
-                'additional_links':{}, # Always empty.
+                'additional_links':{}, # Always empty for Bing.
             },
             ...
         ]
