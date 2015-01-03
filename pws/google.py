@@ -31,12 +31,14 @@ def strip_tags(html):
 ##################################################
 
 # https://www.google.com/search?q=hello+world&num=3&start=0
-def generate_url(query, num, start):
+def generate_url(query, num, start, recent):
     """(str, str, str) -> str
     A url in the required format is generated.
     """
     query = '+'.join(query.split())
     url = 'https://www.google.com/search?q=' + query + '&num=' + num + '&start=' + start
+    if recent in ['h', 'd', 'w', 'm', 'y']:
+        url += '&tbs=qdr:' + recent
     return url
 
 # Sortbydate: tbs=sbd:1
@@ -72,10 +74,10 @@ def try_cast_int(s):
 
 class Google:
     @staticmethod
-    def search(query, num=10, start=0, sleep=True):
+    def search(query, num=10, start=0, sleep=True, recent=None):
         if sleep:
             wait(1)
-        url = generate_url(query, str(num), str(start))
+        url = generate_url(query, str(num), str(start), recent)
         soup = BeautifulSoup(requests.get(url).text)
         results = Google.scrape_search_result(soup)
 

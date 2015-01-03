@@ -38,7 +38,7 @@ def generate_url(query, first, recent):
     """
     query = '+'.join(query.split())
     url = 'http://www.bing.com/search?q=' + query + '&first=' + first
-    if recent:
+    if recent in ['h', 'd', 'w', 'm', 'y']: # A True/False would be enough. This is just to maintain consistancy with google.
         url = url + '&filters=ex1%3a%22ez1%22'
     return url
 
@@ -50,7 +50,7 @@ def generate_news_url(query, first, recent):
     """
     query = '+'.join(query.split())
     url = 'http://www.bing.com/news/search?q=' + query + '&first' + first
-    if recent:
+    if recent in ['h', 'd', 'w', 'm', 'y']: # A True/False would be enough. This is just to maintain consistancy with google.
         url = url + '&qft=sortbydate%3d%221%22'
     return url
 
@@ -71,18 +71,18 @@ def try_cast_int(s):
 
 class Bing:
     @staticmethod
-    def search_common(query, num, start, sleep, recent, generator, scraper):
+    def search(query, num=10, start=0, sleep=True, recent=True):
         results = []
         _start = start # Remembers the initial value of start for later use
         _url = None
         while len(results) < num:
             if sleep: # Prevents loading too many pages too soon
                 wait(1)
-            url = generator(query, str(start), recent)
+            url = generate_url(query, str(start), recent)
             if _url is None:
                 _url = url # Remembers the first url that is generated
             soup = BeautifulSoup(requests.get(url).text)
-            new_results = scraper(soup)
+            new_results = Bing.scrape_search_result(soup)
             results += new_results
             start += len(new_results)
         results = results[:num]
@@ -94,10 +94,6 @@ class Bing:
                 'search_engine' : 'bing',
         }
         return temp
-
-    @staticmethod
-    def search(query, num=10, start=0, sleep=True, recent=True):
-        return Bing.search_common(query, num, start, sleep, recent, generate_url, Bing.scrape_search_result)
 
     @staticmethod
     def scrape_search_result(soup):
@@ -131,7 +127,28 @@ class Bing:
 
     @staticmethod
     def search_news(query, num=10, start=0, sleep=True, recent=True):
-        return Bing.search_common(query, num, start, sleep, recent, generate_news_url, Bing.scrape_news_result)
+        results = []
+        _start = start # Remembers the initial value of start for later use
+        _url = None
+        while len(results) < num:
+            if sleep: # Prevents loading too many pages too soon
+                wait(1)
+            url = generate_news_url(query, str(start), recent)
+            if _url is None:
+                _url = url # Remembers the first url that is generated
+            soup = BeautifulSoup(requests.get(url).text)
+            new_results = Bing.scrape_news_result(soup)
+            results += new_results
+            start += len(new_results)
+        results = results[:num]
+
+        temp = {'results' : results,
+                'url' : _url,
+                'num' : num,
+                'start' : _start,
+                'search_engine' : 'bing',
+        }
+        return temp
 
     @staticmethod
     def scrape_news_result(soup):
