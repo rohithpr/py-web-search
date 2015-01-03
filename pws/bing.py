@@ -75,6 +75,8 @@ class Bing:
         results = []
         _start = start # Remembers the initial value of start for later use
         _url = None
+        related_queries = None
+
         while len(results) < num:
             if sleep: # Prevents loading too many pages too soon
                 wait(1)
@@ -85,6 +87,10 @@ class Bing:
             new_results = Bing.scrape_search_result(soup)
             results += new_results
             start += len(new_results)
+
+            if related_queries is None:
+                related_queries = scrape_related(soup)
+
         results = results[:num]
 
         temp = {'results' : results,
@@ -92,8 +98,19 @@ class Bing:
                 'num' : num,
                 'start' : _start,
                 'search_engine' : 'bing',
+                'related_queries' : related_queries,
         }
         return temp
+
+    @staticmethod
+    def scrape_related(soup):
+        related_queries = []
+        raw_related = soup.find('ul', attrs = {'class' : 'b_vList'})
+        raw_related = raw_related.find_all('a')
+
+        for related in raw_related:
+            related_queries.append(strip_tags(str(related)))
+        return related_queries
 
     @staticmethod
     def scrape_search_result(soup):

@@ -80,12 +80,14 @@ class Google:
         url = generate_url(query, str(num), str(start), recent)
         soup = BeautifulSoup(requests.get(url).text)
         results = Google.scrape_search_result(soup)
+        related_queries = Google.scrape_related(soup)
 
         temp = {'results' : results,
                 'url' : url,
                 'num' : num,
                 'start' : start,
                 'search_engine': 'google',
+                'related_queries' : related_queries,
         }
         return temp
 
@@ -117,6 +119,14 @@ class Google:
 
             results.append(temp)
         return results
+
+    @staticmethod
+    def scrape_related(soup):
+        related_queries = []
+        raw_related = soup.find_all('p', attrs = {'class' : '_Bmc'})
+        for related in raw_related:
+            related_queries.append(strip_tags(str(related.find('a'))))
+        return related_queries
 
     @staticmethod
     def search_news(query, num=10, start=0, sleep=True, recent=None):

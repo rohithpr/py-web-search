@@ -56,6 +56,7 @@ Prints 5 results from the the third result onwards (ignores the first 2) in the 
                 'link': '...',
                 'link_text': '...',
                 'link_info': '...',
+                'related_queries': [...],
                 'additional_links':
                 {
                     linktext: link,
