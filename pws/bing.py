@@ -71,7 +71,7 @@ def try_cast_int(s):
 
 class Bing:
     @staticmethod
-    def search(query, num=10, start=0, sleep=True, recent=True):
+    def search(query, num=10, start=0, sleep=True, recent=None):
         results = []
         _start = start # Remembers the initial value of start for later use
         _url = None
@@ -126,7 +126,7 @@ class Bing:
         return results
 
     @staticmethod
-    def search_news(query, num=10, start=0, sleep=True, recent=True):
+    def search_news(query, num=10, start=0, sleep=True, recent=None):
         results = []
         _start = start # Remembers the initial value of start for later use
         _url = None

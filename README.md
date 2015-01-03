@@ -13,12 +13,10 @@ A Python module to fetch and parse results from different search engines.
 
 ## Search engines supported
 
-* Google: [web](#web-search)
+* Google: [news](#news-search), [web](#web-search)
 * Bing: [news](#news-search), [web](#web-search)
 
 ## Installation
-
-Current release: 0.1.1.3
 
 Needs Python3.
 Install using pip:
@@ -42,7 +40,7 @@ Install using pip:
     # num: Default 10. The number of results returned.
     # start: Default 0. The number of top results that are to be ignored.
     # sleep: Default True. If True, the program will wait for a second, when applicable, to avoid overwhelming the servers.
-    # recent: Default True. If True the most recent results are obtained else top results are obtained. (Buggy)
+    # recent: Default None. The following values are allowed: 'h': hour, 'd': day, 'w': week, 'm': month and 'y': year.(Buggy)
 ```
 Prints 5 results from the the third result onwards (ignores the first 2) in the following format.
 
@@ -72,8 +70,10 @@ Prints 5 results from the the third result onwards (ignores the first 2) in the 
 #### News search
 ```python
     from pws.bing import Bing
+    from pws.google import Google
 
-    print(Bing.search_news('github', 10, 0, True, True))
+    print(Bing.search_news('github', 10, 0, True, 'h'))
+    print(Google.search_news('github', 10, 0, True, 'd'))
     
     # Arguments:
     # search_news(query, num, start, sleep, recent)
@@ -81,7 +81,7 @@ Prints 5 results from the the third result onwards (ignores the first 2) in the 
     # num: Default 10. The number of results returned.
     # start: Default 0. The number of top results that are to be ignored.
     # sleep: Default True. If True, the program will wait for a second, when applicable, to avoid overwhelming the servers.
-    # recent: Default True. If True the most recent results are obtained else top results are obtained. (Buggy)
+    # recent: Default None. The following values are allowed: 'h': hour, 'd': day, 'w': week, 'm': month and 'y': year.(Buggy)
 ```
 Prints 10 results from the the first result onwards (ignores the first 0) in the following format.
 
