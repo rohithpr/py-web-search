@@ -1,0 +1,720 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#" xmlns:web="http://schemas.live.com/Web/">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+  <script type="text/javascript">
+   //<![CDATA[
+si_ST=new Date
+//]]>
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+_G={ST:(si_ST?si_ST:new Date),Mkt:"en-IN",RTL:false,Ver:"9_00_0_3568181",IG:"279d09c839984d94a552f580f061b99c",EventID:"9b16ef2394214fb6a7b6098843b8a4b3",V:"news",P:"news",DA:"BOM02v2",CID:"1E877D2C51C9690816557A0F50746894",SUIH:"gfkQqyenI5-LgprPqjOLmQ",gpUrl:"\/fd\/ls\/GLinkPing.aspx?"};_G.lsUrl="/fd/ls/l?IG="+_G.IG+"&CID="+_G.CID;curUrl="http:\/\/www.bing.com\/news\/search";function si_T(a){if(document.images){_G.GPImg=new Image;_G.GPImg.src=_G.gpUrl+'IG='+_G.IG+'&CID='+_G.CID+'&'+a;}return true;};sb_gh=function(){return location.hash},sb_sh=function(n){location.hash=n};function _ge(n){return _d.getElementById(n)}_w=window,_d=document,sb_de=_d.documentElement,sb_ie=!!_w.ActiveXObject,sb_i6=sb_ie&&!_w.XMLHttpRequest,sb_st=_w.setTimeout,sb_ct=_w.clearTimeout,sb_gt=function(){return+new Date};sj_evt=new function(){function i(n){return t[n]||(t[n]=[])}var t={},n=this;n.fire=function(n){for(var r=i(n),u=r.e=arguments,t=0;t<r.length;t++)r[t].d?sb_st(sj_wf(r[t],u),r[t].d):r[t](u)},n.bind=function(n,t,r,u){var f=i(n);t.d=u,f.push(t),r&&f.e&&t(f.e)},n.unbind=function(n,i){for(var u=0,r=t[n];r&&u<r.length;u++)if(r[u]==i){r.splice(u,1);break}}};function si_PP(n,t){var u,r,i;if(!_G.PPS){for(u='"',r=["PC","FC","BC","BS","H","FE","LE","C1","C2","BP","KP"],i=0;i<r.length;i++)u+=',"'+r[i]+'":'+(_G[r[i]+"T"]?_G[r[i]+"T"]-_G.ST:-1);_G.PPImg=new Image,_G.PPImg.src=_G.lsUrl+'&Type=Event.CPT&DATA={"pp":{"S":"'+(t?t:"L")+u+',"CT":'+(n-_G.ST)+',"IL":'+_d.images.length+(_w.sb_ppCPL?',"CP":1':"")+"}}"+(_G.P?"&P="+_G.P:"")+(_G.DA?"&DA="+_G.DA:""),_G.PPS=1,sb_st(function(){sj_evt.fire("onPP")},1)}}_w.onbeforeunload=function(){si_PP(new Date,"A")};
+//]]>
+  </script>
+  <style type="text/css">
+   html,body,h1,h3,h4,h5,h6,p,img,ol,ul,li,form,table,tr,th,td{border:0;border-collapse:collapse;border-spacing:0;list-style:none;margin:0;padding:0}input,textarea{font:inherit;font-size:100%}body{min-width:987px}body,.sb_text,.sb_h3{color:#000;font:small/normal Arial,Helvetica,Sans-Serif}a,.sb_link,a.sb_link,.sb_link a,.sb_h3 a{color:#04c;text-decoration:none}a:visited,a.sb_link:visited,.sb_link a:visited,.sb_h3 a:visited{color:#639}a:hover,a.sb_link:hover,.sb_link a:hover,h3 a,.sb_h3 a{text-decoration:underline}h1,h2,h3,h4,h5,h6{font-size:small;font-weight:200}h1{font-size:93%}h2,h3,.sb_h3{font-size:125%}h1,h1 a,h1 a:visited,h2,h2 a,h2 a:visited{color:#000}h2{margin:0 0 .62em}cite,.sb_cite{color:#388222;font-style:normal;word-wrap:break-word}strong{font-weight:700}.sb_title{font-size:91%;margin:0 0 .36em;text-transform:uppercase}.sb_count,.sb_meta,.sb_title,.sb_title a{color:#777}.sb_meta a,.sb_meta a:visited,a.sb_meta,a.sb_meta:visited{color:#36b}.sb_alert{color:#d90026}.sb_alert a{font-style:italic}#sw_hdr,#sw_content,#sw_main,#sw_foot{width:100%;float:left}#sw_content{position:static;z-index:3;min-height:344px}#sw_canvas{padding:0 0 0 15px;clear:both}#sw_main{_display:inline;margin:0 0 0 -15px;padding:0 0 1.54em 15px}.sb_results p,.sb_results .sb_meta{margin:0;line-height:1.2em;word-wrap:break-word}.sp_pss li{display:inline}.sw_sb,.sw_qbtn,.sw_pifa,.sw_pipp,.sw_pippa,.sw_pil,.sw_pit,.sw_conv,.sw_conva,.sw_poi,.sw_poia{height:20px;width:20px}.sw_pref,.sw_play,.sw_playh,.sw_playa,.sw_playd,.sw_spp,.sw_spr{height:16px;width:16px}.sw_sb,.sw_qbtn{background:-76px 0}.sw_ddbl,.sw_ddbk,.sw_ddw,.sw_ddgy,.sw_ddgn{background:-404px -22px;height:5px;width:8px;_font-size:0}.sw_ddbk{background:-412px -22px}.sw_ddw{background:-420px -22px}.sw_ddgy{background:-428px -22px}.sw_ddgn{background:-436px -22px}.sw_meIc{background:-108px 0;height:12px;width:10px}#spcv .sw_meIc{background-position:-97px 0}.sw_pref{background:-119px 0}.sw_calc{background:-389px 0;height:19px;width:19px}.sw_pifa{background:-137px 0}.sw_pifa.hover{background-position:-158px 0}.sw_pipp{background:-179px 0}.sw_pipp.hover{background-position:-200px 0}.sw_pippa{background:-221px 0}.sw_pil{background:-242px 0}.sw_pil.hover{background-position:-263px 0}.sw_pit{background:-284px 0}.sw_pit.hover{background-position:-305px 0}.sw_conv{background:-326px 0}.sw_conv:hover{background-position:-347px 0}.sw_conva{background:-368px 0}.sw_poi{background:-409px 0}.sw_poia{background:-430px 0}.sw_play{background:-451px 0}.sw_playh{background:-468px 0}.sw_playa{background:-485px 0}.sw_playd{background:-660px 0}.sw_plus{background:-387px -20px;height:8px;width:8px}.sw_minus{background:-396px -21px;height:2px;width:8px}.sw_st,.sw_sth,.sw_ste,.sw_st2,.sw_sth2{background:-502px 0;height:12px;width:12px}.sw_st2{background:-530px 0}.sw_sth{background:-544px 0}.sw_sth2{background:-558px 0}.sw_ste{background:-516px 0}.sw_tpo,.sw_tpoh,.sw_tpoa{background:-502px -13px;height:12px;width:8px}.sw_tpoh{background:-511px -13px}.sw_tpoa{background:-520px -13px}.sw_tpcg,.sw_tpcbl,.sw_tpcw,.sw_tpcbk{background:-97px -17px;height:9px;width:9px}.sw_tpcbl{background:-107px -17px}.sw_tpcw{background:-117px -17px}.sw_tpcbk{background:-127px -17px}.sw_arw,.sw_arwh{background:-470px -17px;height:11px;width:14px}.sw_arwh{background:-485px -17px}.sw_beak{background:-451px -17px;height:11px;width:18px}.sw_tbcsp:hover{background-position:-126px -17px}.sw_spo,.sw_spc{background:-572px 0;height:28px;width:28px}.sw_spd{background:-601px 0;height:24px;width:24px}.sw_spp{background:-626px 0}.sw_spr{background:-643px 0}.sw_sb,.sw_qbtn,.sw_ddbl,.sw_ddbk,.sw_ddw,.sw_ddgy,.sw_ddgn,.sw_meIc,.sw_pref,.sw_logo,.sw_calc,.sw_pifa,.sw_pipp,.sw_pippa,.sw_pil,.sw_pit,.sw_conv,.sw_conva,.sw_poi,.sw_poia,.sw_play,.sw_playh,.sw_playa,.sw_playd,.sw_st,.sw_sth,.sw_ste,.sw_st2,.sw_sth2,.sw_plus,.sw_minus,.sw_tpo,.sw_tpoh,.sw_tpoa,.sw_tpcg,.sw_tpcbl,.sw_tpcw,.sw_tpcbk,.sw_arw,.sw_arwh,.sw_beak,.sw_spo,.sw_spc,.sw_spd,.sw_spp,.sw_spr{background-image:url(/fd/s/a/sw22.png);background-repeat:no-repeat}.sw_logo{height:29px;width:73px;background-color:transparent;text-indent:-9999px}.sb_pag{width:100%;float:left}.sb_pag li{float:left}.sb_pag h4{display:none}.sb_pag a,.sb_pag span{display:block;padding:.3em .7em;margin:0 .38em 0 0;text-align:center}a.sb_pagP,a.sb_pagN,span.sb_pagSp{padding:.38em .5em}.sb_pag a:hover,a.sb_pagS{text-decoration:none;background:#ededed}a.sb_pagS{color:#000}a.sb_pagP{margin-right:.7em;padding-left:0}a:hover.sb_pagP,a:hover.sb_pagN{text-decoration:underline;background-color:transparent}a.sb_pagP:visited,a.sb_pagN:visited{color:inherit}a{}#sw_hdr{min-height:100px;_height:100px;padding:0 0 4px 0;background:#fff}.sw_logo{_display:inline;margin:2px 10px 0 27px;float:left}.sw_logoT{color:#000;font-size:17px;line-height:normal;position:absolute;z-index:-1}#sw_hdr .sw_box{padding:36px 0 0;position:relative;z-index:901;float:left}.sw_hdr_img,#sw_im{height:5px;font-size:0;cursor:pointer}.sw_bd{position:relative;float:left;font-size:medium}.sw_b{float:left;border:1px #999 solid;padding:.19em .1em 1.06em .03em}.sw_b input{float:left;border:0;-webkit-appearance:none;outline:none}.sw_qbox{margin:0 0 -.88em;padding:.19em .15em .25em .56em;height:1.25em;line-height:1.25em;width:480px}.sw_b .sw_sb,.sw_b .sw_qbtn{cursor:pointer;padding:0;margin:4px 6px -14px 8px;overflow:hidden;font-size:0}.sw_dvdr{background:#ccc;height:21px;margin:3px 0 -15px 12px;float:left;width:1px}#sw_as{left:0;position:relative;clear:both;display:none;font-size:small}.idh{padding:0;margin:0;z-index:951}.idd{display:none;z-index:950;position:absolute;width:230px;right:5px}.img_uparrow{margin-left:16px;z-index:952;display:none}#id_t{white-space:nowrap;max-width:150px;overflow:visible}#id_la{cursor:pointer}.idh a:hover{text-decoration:none}.idh .lt{cursor:pointer;height:34px}.pic{vertical-align:middle;margin-left:10px}.pic.si{height:28px;width:28px}.idh .lt #id_t{display:block}.idh .lt #id_s,#id_n{padding-left:8px}.idh .lt #id_r{width:74px;height:13px;position:relative}.idh .lt #id_rc{line-height:13px;position:absolute;top:1px;left:21px}.idh .pref{position:absolute;right:15px;top:48px;cursor:pointer}.img_downarrow{margin-left:4px;vertical-align:middle;display:inline-block}.nosp.idh{position:absolute;width:240px;height:78px;top:5px;display:none;background-color:#fff}.nosp.idd{top:85px}.nosp.idh .lt{margin-top:38px;margin-right:50px;_margin-right:24px;float:right}.nosp.idh span{color:#727272}.nosp.idh .lt .pic{border:1px solid #f2f2f2}.nosp .img_rwds_sml{position:absolute;top:1px;left:8px}#id_lt{height:34px}.nosp .img_uparrow{top:71px;position:absolute}.nosp.idh .pref:hover{background:url('/fd/s/a/identity6.png') no-repeat scroll -93px -1px transparent}a{}
+  </style>
+  <style type="text/css">
+   .sw_hdr_img,#sw_im{background:#000000 no-repeat;}
+  </style>
+  <script type="text/javascript">
+   //<![CDATA[
+function sj_wf(n){var t=arguments;return function(){n.apply(null,[].slice.apply(t).slice(1))}};(function(){function i(){--r<1&&u.fire("onP1")}var r,n=0,u=sj_evt,t=[];for(_w.si_PP&&t.push("onPP");n<t.length;n++)u.bind(t[r=n],i,1);n||i()})();function sj_be(n,t,i,r){if((n==_w||n==_d.body)&&t=="load"&&"undefined"!=typeof _d.readyState&&"complete"===_d.readyState){i();return}n.addEventListener?n.addEventListener(t,i,r):n.attachEvent?n.attachEvent("on"+t,i):n["on"+t]=i}function sj_ue(n,t,i,r){n.removeEventListener?n.removeEventListener(t,i,r):n.detachEvent?n.detachEvent("on"+t,i):n["on"+t]=null};function sj_ev(n){return sb_ie?event:n}function sj_et(n){return sb_ie?event.srcElement:n.target}function sj_mi(n){return sb_ie?event.fromElement:n.relatedTarget}function sj_mo(n){return sb_ie?event.toElement:n.relatedTarget};function lb(){function e(n){i=n[1],u.unbind(f,e)}var u=sj_evt,f="onSbBusy",i,n,r,t;for(u.bind(f,e,1),n=1;n<4;++n)r="sb_form"+(n>1?n:""),t=_ge(r),!t||i&&_ge(r+"_q")==i||!t.reset||t.reset();_w.si_sendCReq&&sb_st(si_sendCReq,800),_w.lbc&&lbc()}function init(){}(function(){var n=sj_evt,i="onSbBusy",t=null;n.bind(i,function(){sb_ct(t),t=sb_st(sj_wf(n.fire,"onSbIdle"),1100)}),sj_be(_d,"keydown",function(t){n.fire(i,sj_et(t))})})(),sj_evt.bind("onHTML",function(){var n=_ge("sb_form");n&&sj_be(n,"submit",sj_wf(sj_evt.fire,"onSearch",n))});function si_ct(n,t){var u="getAttribute",r,i,e;try{for(;n!==_d.body;n=n.parentNode){if(r=n.tagName=="A"&&n[u]("h")||n[u]("_ct"),r){i=n[u]("_ctf"),i&&_w[i]||(i="si_T"),_w[i]&&_w[i]("&"+r);break}if(t)break}}catch(f){}return!0}(function(){sj_be(_d,"mousedown",function(n){si_ct(sb_ie?event.srcElement:n.target)},0)})();function sj_anim(n){var t=this,s,u,h,o,r,f,c,i,e;t.init=function(n,o,h,l,a){s=n,r=o,f=h,c=l,e=a,i||(i=r),u||t.start()},t.start=function(){h=sb_gt(),o=Math.abs(f-r-i)/c*25,u=setInterval(t.next,25)},t.stop=function(){clearInterval(u),u=0},t.next=function(){var u=sb_gt()-h;i=r+(f-r)*u/o,u>=o&&(t.stop(),i=f,e&&e()),n(s,i)}};function sj_so(n,t){n.style.filter=t>=100?"":"alpha(opacity="+t+")",n.style.opacity=t/100};function sj_fader(){return new sj_anim(function(n,t){sj_so(n,t)})};function sj_ce(n,t,i){var r=_d.createElement(n);return t&&(r.id=t),i&&(r.className=i),r};function sj_jb(n,t){function r(n,t,i,u){i&&sj_ue(i,u,r),sj_evt.bind("onP1",function(){if(!n.l){n.l=1;var i=sj_ce("script");i.src=(t?"/fd/sa/"+_G.Ver:"/sa/"+_G.AppVer)+"/"+n.n+".js",sj_b.appendChild(i)}},1,5)}for(var f=arguments,e,u,i=2,o={n:n};i<f.length;i+=2)e=f[i],u=f[i+1],sj_be(e,u,sj_wf(r,o,t,e,u));i<3&&r(o,t)};function sj_gx(){return sb_i6?new ActiveXObject("MSXML2.XMLHTTP"):new XMLHttpRequest};function sj_sp(n){sb_ie?n.cancelBubble=!0:n.stopPropagation()};function sj_pd(n){sb_ie?event.returnValue=!1:n.preventDefault()};function sj_we(n,t,i){while(n&&n!=(i||sj_b)){if(n==t)return!0;n=n.parentNode}return!1};
+//]]>
+  </script>
+  <link href="http://www.bing.com/news/search?q=hello+world" rel="canonical"/>
+  <link href="/rms/news4SV5/cc/c0845d94/5e163a24.css?bu=rms+answers+News+Vertical%24news4SV5Part_c%2cVertical%24noresult_c%2cVertical%24newsShareV5_c%2cVertical%24newsheaderv5_c%2cVertical%24newsactv5_c%2cVertical%24newsNoClusterExp_c&amp;y" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript">
+   //<![CDATA[
+function getElementsByClassName(n,t){return getElementsByTagAndClassName(n,"*",t)}function getElementsByTagAndClassName(n,t,i){var r;n=n||document;var u=n.getElementsByTagName(t),f=[],e=0;for(r=0;r<u.length;r++)newsutils.isMember(u[r],i)&&(f[e++]=u[r]);return f}function appendClass(n,t){n&&!newsutils.isMember(n,t)&&(n.className+=" "+t)}function removeClass(n,t){if(n){var i=new RegExp("(?:^|\\s)"+t+"(?!\\S)","g");n.className=n.className.replace(i,"")}}function g_width(){var n=0;return typeof _w.innerWidth=="number"?n=_w.innerWidth:sb_de&&sb_de.clientWidth?n=sb_de.clientWidth:sj_b&&sj_b.clientWidth&&(n=sj_b.clientWidth),n}function fireUIEvent(n,t){var i;_d.createEvent?(i=_d.createEvent("UIEvents"),i.initEvent(n,!0,!0)):(i=_d.createEventObject(),i.eventType=n),_d.createEvent?t.dispatchEvent(i):t.fireEvent&&t.fireEvent("on"+i.eventType,i)}function InitWidthClass(n){layoutList=n?[{upper:1240,cls:"small_zh"},{upper:0,cls:"med_zh"}]:[{upper:1240,cls:"small"},{upper:1500,cls:"med"},{upper:0,cls:"large"}],setWidthClass(layoutList)}function setWidthClass(n){for(var u=sj_b,o=g_width(),e=n.length-1,f,r,t,i=0;i<n.length;++i)t=n[i],newsutils.isMember(u,t.cls)&&(f=t.cls),!r&&(o<t.upper||i==e)&&(r=t.cls);f!=r&&(removeClass(u,f),appendClass(u,r),fireUIEvent("resize",_w))}function extend(n,t){var i=function(){};i.prototype=t.prototype,n.prototype=new i,n.prototype.constructor=n,n.superClass=t.prototype,t.prototype.constructor==Object.prototype.constructor&&(t.prototype.constructor=t)}var newsutils={toggleClass:function(n,t){if(typeof n.className!=undefined){if(n.className==""){n.className=t;return}var i=new RegExp("(?:^|\\s)"+t+"(?!\\S)","g");n.className=this.isMember(n,t)?n.className.replace(i,""):n.className+" "+t}},isParent:function(n,t){while(n.parentNode){if(n==t)return!0;n=n.parentNode}return!1},trim:function(n){return n.replace(/^\s\s*/,"").replace(/\s\s*$/,"")},isMember:function(n,t){var i=new RegExp("(?:^|\\s)"+t+"(?!\\S)");return n&&n.className&&i.test(n.className)},getBtnCode:function(n){var i=n||window.event,t=4;return"object"==typeof i&&(t=i.button),t},getComputedStyle:function(n,t){var i="";return n&&t&&(document.defaultView&&document.defaultView.getComputedStyle?i=document.defaultView.getComputedStyle(n,null).getPropertyValue(t):n.currentStyle&&(t=t.replace(/\-(\w)/g,function(n,t){return t.toUpperCase()}),i=n.currentStyle[t])),i},getWidthOfText:function(n,t){var r,i;return n?(r=sj_ce("div"),r.className="textwidthruler",r.innerHTML=n,r.style.cssText=t||"",document.body.appendChild(r),i=this.getComputedStyle(r,"width"),i=i.length>2&&i.substr(i.length-2,2)=="px"?parseFloat(i.substr(0,i.length-2)):r.offsetWidth,document.body.removeChild(r),i):0}},layoutList;Function.prototype.bind||(Function.prototype.bind=function(n){if(typeof this!="function")throw new TypeError("Function.bind - not callable");var u=Array.prototype.slice.call(arguments,1),r=this,t=function(){},i=function(){return r.apply(this instanceof t&&n?this:n,u.concat(Array.prototype.slice.call(arguments)))};return t.prototype=this.prototype,i.prototype=new t,i});
+//]]>
+  </script>
+  <title>
+   hello world - Bing News
+  </title>
+  <link href="/s/a/bing_p.ico" rel="icon"/>
+  <link href="http://www.bing.com:80/news/search?q=hello+world&amp;format=RSS" rel="alternate" title="XML" type="text/xml"/>
+  <link href="http://www.bing.com:80/news/search?q=hello+world&amp;format=RSS" rel="alternate" title="RSS" type="application/rss+xml"/>
+  <meta content="News from world, national, and local news sources, organized to give you in-depth news coverage of sports, entertainment, business, politics, weather, and more." name="description"/>
+  <meta content="NOODP" name="ROBOTS"/>
+  <!-- FD: AA6665D692248B6183458CC5DF4477F8 -->
+ </head>
+ <body class=" en en-IN " onload="if(_w.lb)lb();">
+  <script type="text/javascript">
+   //<![CDATA[
+_G.PCT=new Date
+//]]>
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+sj_b=_d.body;var wlc_d = 1500,wlc_t = 63555807371;;
+//]]>
+  </script>
+  <p id="testhook_txt">
+  </p>
+  <script src="/rms/rms%20answers%20News%20Vertical$newsSmartRefresh.source/jc/1abcd440/092426a2.js?y" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+sj_evt.bind("onP1", function(){c = cc(500, 300, "/news/search?q=hello+world&amp;form=NWRFSH");if(c != null) {c.init();}});;_G.AppVer="8_01_1_3586487";
+//]]>
+  </script>
+  <div id="sw_page">
+   <div id="sw_width">
+    <div class="sw_hdr_bg" id="sw_hdr">
+     <a _ct="ID=PJ,4.1" href="/?FORM=HDRHME&amp;pq=hello world" title="Explore today’s homepage">
+      <div class="sw_hdr_img">
+       <div id="sw_im">
+       </div>
+      </div>
+     </a>
+     <form action="/news/search" class="sw_box" id="sb_form">
+      <a _ct="ID=PJ,3.1" class="sw_logo" href="/?FORM=Z9FD1">
+       <span class="sw_logoT">
+        Bing
+       </span>
+      </a>
+      <div class="sw_bd">
+       <div class="sw_b" id="sw_b">
+        <input class="sw_qbox" id="sb_form_q" maxlength="1000" name="q" onblur="document.getElementById('sw_b').style.borderColor = '#999';" onfocus="document.getElementById('sw_b').style.borderColor='#3366bb';" title="Enter your search term" type="text" value="hello world"/>
+        <div class="sw_dvdr">
+        </div>
+        <input class="sw_qbtn" id="sb_form_go" name="go" tabindex="0" title="Search" type="submit" value=""/>
+       </div>
+       <input id="sa_qs" name="qs" type="hidden" value="ds"/>
+       <div id="sw_as" style="display: block;">
+       </div>
+      </div>
+      <input name="form" type="hidden" value="QBNT"/>
+     </form>
+     <div class="idh nosp" id="id_h">
+      <table _ct="ID=PJ,27.1" class="lt" id="id_l">
+       <tr id="id_lt">
+        <td>
+         <img class="pic si" id="id_p" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7" style="display:none" title=""/>
+        </td>
+        <td>
+         <a href="javascript:void(0);" id="id_la">
+          <div id="id_t">
+           <span id="id_n" style="display:none">
+           </span>
+           <span id="id_s">
+            Sign in
+           </span>
+           <span class="img_downarrow sw_ddb sw_ddgy" id="id_a">
+           </span>
+          </div>
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2">
+         <div class="img_uparrow sw_beak" id="id_d_u">
+         </div>
+        </td>
+       </tr>
+      </table>
+      <a _ct="ID=PJ,28.1" class="pref sw_pref" href="/account/general?ru=http%3a%2f%2fwww.bing.com%2fnews%2fsearch%3fq%3dhello%2bworld&amp;FORM=SEFD" title="Preferences">
+      </a>
+     </div>
+     <div id="sw_tfbb">
+     </div>
+     <span _iid="PJ.31" class="idd nosp" id="id_d">
+     </span>
+    </div>
+    <div id="sw_content">
+     <script type="text/javascript">
+      //<![CDATA[
+_G.FCT=new Date
+//]]>
+     </script>
+     <script type="text/javascript">
+      //<![CDATA[
+_G.BCT=new Date
+//]]>
+     </script>
+     <style type="text/css">
+      #sw_aside{width:185px;float:left;margin:0 0 0 -195px;overflow:hidden;word-wrap:break-word}.sw_menu{padding:0 20px}#sw_main .sw_menu{padding:0}.sw_menu form{margin:0;width:100%}.sw_menu ul{padding:0 0 1.52em;margin:0;list-style:none}.sw_menu ul ul{padding:0}.sw_menu li{padding:0 0 .3em}#sc_sst{word-wrap:break-word;color:#737373}#sc_sst .first{margin-top:.3em}#sb_foot{font-size:83.9%;clear:both;float:left;width:550px;border-top:solid 1px #ccc;margin-left:110px;line-height:23px;_display:inline;_zoom:1}#sw_footL,#sw_footL a,#sw_foot3,#sw_foot3 a{color:#777;clear:both;margin:7px 0 43px 10px}#sw_foot3{margin-top:-43px}#sb_foot ul{display:block}#sb_foot li{display:inline}#sb_foot a,#sb_foot span{margin:.4em}a#sb_feedback{color:#04c}#sw_ctfm{margin:15px 0 0 10px;float:left}.sw_a{position:absolute;top:17px;left:122px;font-weight:700;font-size:84%;z-index:1001;text-transform:uppercase;white-space:nowrap}.sw_a li{display:inline;margin:0 1.8em 0 0;zoom:1}.sw_a a{color:#777;font-weight:700}.sw_aa a{color:#000}.sw_a2{margin:10px 0 20px 110px;padding:0;font-weight:700;font-size:85%;z-index:1001;text-transform:uppercase}.sw_a2 li{display:inline;padding:8px 10px;background:#f5f5f5}.sw_a2 a{color:#777}.sw_a2 .sw_aa{background:#e5e5e5}.sw_a3 .sw_aa{background:#fff}.sw_a3 li{background:#fff;text-transform:none;font-weight:200;font-size:115%}
+     </style>
+     <style type="text/css">
+      #sw_canvas{padding-left:195px}
+     </style>
+     <script type="text/javascript">
+      //<![CDATA[
+function sj_go(n,t,i){for(var r=0;n.offsetParent&&n!=(i||sj_b);)r+=n["offset"+t],n=n.offsetParent;return r};
+//]]>
+     </script>
+     <div id="sw_abar">
+      <ul class="sw_a">
+       <li>
+        <a _ct="ID=PJ,47.1" href="/search?q=hello+world&amp;FORM=HDRSC1">
+         Web
+        </a>
+       </li>
+       <li>
+        <a _ct="ID=PJ,48.1" href="/images/search?q=hello+world&amp;FORM=HDRSC2">
+         Images
+        </a>
+       </li>
+       <li>
+        <a _ct="ID=PJ,49.1" href="/videos/search?q=hello+world&amp;FORM=HDRSC3">
+         Videos
+        </a>
+       </li>
+       <li class="sw_aa">
+        <a _ct="ID=PJ,50.1" href="/?scope=news&amp;FORM=HDRSC4">
+         News
+        </a>
+       </li>
+       <li>
+        <a _ct="ID=PJ,51.1" href="/mapindia/?q=hello+world&amp;mkt=en&amp;FORM=HDRSC6">
+         Maps
+        </a>
+       </li>
+       <li>
+        <a _ct="ID=PJ,52.1" href="/explore?q=hello+world&amp;FORM=HDRSC5">
+         More
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div id="sw_canvas">
+      <div id="sw_aside">
+       <div id="sc_expPane">
+        <div class="sw_menu" id="sc_sst">
+         <h2 class="sb_title">
+          SEARCH HISTORY
+         </h2>
+         <ul>
+          <li class="sc_tools sb_meta first">
+           <a h="ID=FD,54.1" href="/profile/history?q=hello+world&amp;FORM=O2FD">
+            See all
+           </a>
+          </li>
+          <li class="sc_tools sb_meta">
+           <a h="ID=FD,55.1" href="/profile/history/delete?rp=%2fnews%2fsearch%3fq%3dhello%2bworld&amp;FORM=O2FD1">
+            Clear all
+           </a>
+           ·
+           <a h="ID=FD,57.1" href="/historyHandler?oma=toggle_off&amp;sig=BCCC85377ACE4C25BC31DB5DB658C0BE&amp;rp=%2fnews%2fsearch%3fq%3dhello%2bworld&amp;FORM=O2FD2">
+            Turn off
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </div>
+      <div id="sw_main">
+       <!--[if !IE]><!-->
+       <div class="Content Search">
+        <!--<![endif]-->
+        <!--[if IE]><div class="Content Search IE"><![endif]-->
+        <div class="ResultsArea" id="SerpResult">
+         <div class="serphide" eventid="9b16ef2394214fb6a7b6098843b8a4b3" guid="279d09c839984d94a552f580f061b99c" id="SerpResultCover">
+         </div>
+         <div class="ResultsHeader">
+          <div class="newsFilter">
+           <div class="menu" id="newsFilterV5">
+            <ul>
+             <li id="sf">
+              <ul class="hide">
+               <li>
+                <a h="ID=news,5026.1" href="/news/search?q=hello+world&amp;qft=sortbydate%3d%221%22&amp;form=YFNR">
+                 Most recent
+                </a>
+               </li>
+              </ul>
+              <a class="l1">
+               <span class="tl">
+                Best match
+               </span>
+               <span class="sw_ddbk">
+               </span>
+              </a>
+             </li>
+            </ul>
+           </div>
+           <div class="ResultsLabel">
+            <span class="ResultsCount">
+             4,620 results
+            </span>
+           </div>
+          </div>
+         </div>
+         <div class="NewsResultSet clearfix">
+          <div class="sn_r">
+           <div class="newstitle">
+            <a h="ID=news,5030.1" href="http://www.abplive.in/incoming/2014/12/18/article457398.ece/Stopzzzzz" target="_blank">
+             This is the new article
+            </a>
+           </div>
+           <div class="sn_txt">
+            <div class="sn_oi">
+             <span class="sn_snip">
+              <strong>
+               Hello world
+              </strong>
+              I am a test page and I am being worked upon by an ace developer A.K.S
+              <strong>
+               Hello world
+              </strong>
+              I am a test page and I am being worked upon by an ace developer A.K.S
+              <strong>
+               Hello world
+              </strong>
+              I am a test page and I am being worked upon by an ace developer A.K.S …
+             </span>
+             <span class="sn_ST">
+              <cite class="sn_src">
+               ABP NEWS
+              </cite>
+              ·
+              <span class="sn_tm">
+               18-12-2014
+              </span>
+             </span>
+            </div>
+           </div>
+          </div>
+          <div class="sn_r">
+           <div class="newstitle">
+            <a h="ID=news,5034.1" href="http://www.thehindu.com/todays-paper/tp-features/tp-youngworld/say-hello-to-chikkanna-and-thimmakka/article6746498.ece" target="_blank">
+             Say
+             <strong>
+              HELLO
+             </strong>
+             to… Chikkanna and Thimmakka
+            </a>
+           </div>
+           <div class="sn_img">
+            <a h="ID=news,5036.1" href="http://www.thehindu.com/todays-paper/tp-features/tp-youngworld/say-hello-to-chikkanna-and-thimmakka/article6746498.ece" target="_blank">
+             <img class="rms_img" height="80" id="emb1" src="/imagenewsfetcher.aspx?q=http%3a%2f%2fwww.thehindu.com%2fmultimedia%2fdynamic%2f02264%2f02YT_PERSONALIT_02_2264981e.jpg&amp;id=928616377A7B9FE96C11191B6AC17724&amp;sz=80x80" title="Say HELLO to… Chikkanna and Thimmakka" width="80"/>
+            </a>
+           </div>
+           <div class="sn_txt">
+            <div class="sn_oi">
+             <span class="sn_snip">
+              Fifty years ago, Chikkanna and Thimmakka decided to plant trees. Today, we have a long tree-lined stretch of road. D o ask your parents to take you to the road between Kudur and Hulikal in Karnataka. Get down and …
+             </span>
+             <span class="sn_ST">
+              <cite class="sn_src">
+               The Hindu
+              </cite>
+              ·
+              <span class="sn_tm">
+               14 hours ago
+              </span>
+             </span>
+            </div>
+           </div>
+          </div>
+          <div class="sn_r">
+           <div class="newstitle">
+            <a h="ID=news,5042.1" href="http://indiatoday.intoday.in/story/hello-airtel-charging-extra-for-internet-calls-is-silly-business/1/408983.html" target="_blank">
+             <strong>
+              Hello
+             </strong>
+             Airtel, charging extra for internet calls is silly business
+            </a>
+           </div>
+           <div class="sn_img">
+            <a h="ID=news,5044.1" href="http://indiatoday.intoday.in/story/hello-airtel-charging-extra-for-internet-calls-is-silly-business/1/408983.html" target="_blank">
+             <img class="rms_img" height="80" id="emb2" src="/imagenewsfetcher.aspx?q=http%3a%2f%2fmedia2.intoday.in%2findiatoday%2fimages%2fstories%2fairtel_350_122614050553.jpg&amp;id=C0CD3881288814C00FFCC3C3074DF6C6&amp;sz=80x80" title="Hello Airtel, charging extra for internet calls is silly business" width="80"/>
+            </a>
+           </div>
+           <div class="sn_txt">
+            <div class="sn_oi">
+             <span class="sn_snip">
+              Just like almost all other telecom companies in the
+              <strong>
+               world
+              </strong>
+              , Airtel sees the internet as a business opportunity but also loathes it for providing people choices in the communication business, choices that allow people to …
+             </span>
+             <span class="sn_ST">
+              <cite class="sn_src">
+               India Today
+              </cite>
+              ·
+              <span class="sn_tm">
+               26-12-2014
+              </span>
+             </span>
+            </div>
+           </div>
+          </div>
+          <div class="sn_r">
+           <div class="newstitle">
+            <a h="ID=news,5049.1" href="http://www.gamedynamo.com/company/info/719/hello_games" target="_blank">
+             <strong>
+              Hello
+             </strong>
+             Games
+            </a>
+           </div>
+           <div class="sn_txt">
+            <div class="sn_oi">
+             <span class="sn_snip">
+              <strong>
+               Hello
+              </strong>
+              Games was founded in 2009 by a band of four friends who ... They decided to set forth on a brave journey of discovery and adventure to bring some new, funky-colored pixels to the
+              <strong>
+               world
+              </strong>
+              . They have loved every minute of helping to create great games ...
+             </span>
+             <span class="sn_ST">
+              <cite class="sn_src">
+               Game Dynamo
+              </cite>
+              ·
+              <span class="sn_tm">
+               1 day ago
+              </span>
+             </span>
+            </div>
+           </div>
+          </div>
+          <div class="sn_r">
+           <div class="newstitle">
+            <a h="ID=news,5053.1" href="http://www.thehindu.com/features/magazine/travel-to-hawaii/article6730641.ece" target="_blank">
+             <strong>
+              Hello
+             </strong>
+             , Hawaii
+            </a>
+           </div>
+           <div class="sn_txt">
+            <div class="sn_oi">
+             <span class="sn_snip">
+              During the ‘big wave’ season from November through March, huge glassy waves attract surfers from all over the
+              <strong>
+               world
+              </strong>
+              . The North Shore hosts the
+              <strong>
+               world
+              </strong>
+              ’s elite surfing competitions during this time. Kawaika tells me that I am welcome to hire a board and ...
+             </span>
+             <span class="sn_ST">
+              <cite class="sn_src">
+               The Hindu
+              </cite>
+              ·
+              <span class="sn_tm">
+               29-12-2014
+              </span>
+             </span>
+            </div>
+           </div>
+          </div>
+          <div class="sn_r">
+           <div class="newstitle">
+            <a h="ID=news,5057.1" href="http://www.ndtv.com/article/offbeat/look-who-just-turned-114-say-hello-to-the-world-s-oldest-crocodile-635841?ndtv_prevstory" target="_blank">
+             Look Who Just Turned 114! Say
+             <strong>
+              Hello
+             </strong>
+             to the
+             <strong>
+              World
+             </strong>
+             's Oldest Crocodile
+            </a>
+           </div>
+           <div class="sn_txt">
+            <div class="sn_oi">
+             <span class="sn_snip">
+              Johannesburg: Henry, the
+              <strong>
+               world
+              </strong>
+              's oldest crocodile, turned 114 Tuesday and will be the star at a birthday bash with balloons and cake for all well-wishers. Henry's party is being held at "Crocworld" in the South African city of Scottsburgh where employees ...
+             </span>
+             <span class="sn_ST">
+              <cite class="sn_src">
+               NDTV
+              </cite>
+              ·
+              <span class="sn_tm">
+               17-12-2014
+              </span>
+             </span>
+            </div>
+           </div>
+          </div>
+          <div class="sn_r">
+           <div class="newstitle">
+            <a h="ID=news,5061.1" href="https://in.finance.yahoo.com/news/10-most-important-things-world-084400042.html" target="_blank">
+             The 10 Most Important Things In The
+             <strong>
+              World
+             </strong>
+             Right Now
+            </a>
+           </div>
+           <div class="sn_img">
+            <a h="ID=news,5063.1" href="https://in.finance.yahoo.com/news/10-most-important-things-world-084400042.html" target="_blank">
+             <div style="width:78px;height:78px;border:1px solid #ccc">
+              <img height="0" img-height="80" img-src="/imagenewsfetcher.aspx?q=https%3a%2f%2fs1.yimg.com%2fbt%2fapi%2fres%2f1.2%2f2AgFhgO2c_mgSZJzxjulpQ--%2fYXBwaWQ9eW5ld3M7cT04NTt3PTUxMg--%2fhttp%3a%2f%2fglobalfinance.zenfs.com%2fen_us%2fFinance%2fUS_AFTP_SILICONALLEY_H_LIVE%2fThe_10_Most_Important_Things-745f9a20b0db9004afb030566a5de1a1&amp;id=1FAD582F268BF33F120CFF1FE40252E0&amp;sz=80x80" img-title="The 10 Most Important Things In The World Right Now" img-width="80" onload="lazyImgOnload(this)" width="0"/>
+             </div>
+            </a>
+           </div>
+           <div class="sn_txt">
+            <div class="sn_oi">
+             <span class="sn_snip">
+              <strong>
+               Hello
+              </strong>
+              ! Here's what you need to know for Monday ... More From Business Insider The 10 Most Important Things In The
+              <strong>
+               World
+              </strong>
+              Right Now The 10 Most Important Things In The
+              <strong>
+               World
+              </strong>
+              Right Now 10 NFL Games Have Playoff …
+             </span>
+             <span class="sn_ST">
+              <cite class="sn_src">
+               Yahoo Finance India
+              </cite>
+              ·
+              <span class="sn_tm">
+               29-12-2014
+              </span>
+             </span>
+            </div>
+           </div>
+          </div>
+          <div class="sn_r">
+           <div class="newstitle">
+            <a h="ID=news,5068.1" href="http://www.crazyengineers.com/threads/hello-ceans.77650/" target="_blank">
+             <strong>
+              HELLO
+             </strong>
+             CEans
+            </a>
+           </div>
+           <div class="sn_txt">
+            <div class="sn_oi">
+             <span class="sn_snip">
+              dia-project-report-contest.77548/#post-332822 I really liked the ideas of this website and congratulate the initiators for such a mind-blowing effort to make engineers crazy enough to do things that matter to the
+              <strong>
+               world
+              </strong>
+              . Please go through my project from ...
+             </span>
+             <span class="sn_ST">
+              <cite class="sn_src">
+               Crazy Engineers
+              </cite>
+              ·
+              <span class="sn_tm">
+               08-12-2014
+              </span>
+             </span>
+            </div>
+           </div>
+          </div>
+          <div class="sn_r">
+           <div class="newstitle">
+            <a h="ID=news,5072.1" href="http://indiatoday.intoday.in/story/2014-redux-best-gadgets-phones-apps-and-more/1/410449.html" target="_blank">
+             2014 redux: 10 best gadgets, top smartphones, apps, and more
+            </a>
+           </div>
+           <div class="sn_img">
+            <a h="ID=news,5074.1" href="http://indiatoday.intoday.in/story/2014-redux-best-gadgets-phones-apps-and-more/1/410449.html" target="_blank">
+             <div style="width:78px;height:78px;border:1px solid #ccc">
+              <img height="0" img-height="80" img-src="/imagenewsfetcher.aspx?q=http%3a%2f%2fmedia2.intoday.in%2findiatoday%2fimages%2fstories%2fmain_660_350_123014104301.jpg&amp;id=0E0BA1D08B60E0AB3C4523016DF10295&amp;sz=80x80" img-title="2014 redux: 10 best gadgets, top smartphones, apps, and more" img-width="80" onload="lazyImgOnload(this)" width="0"/>
+             </div>
+            </a>
+           </div>
+           <div class="sn_txt">
+            <div class="sn_oi">
+             <span class="sn_snip">
+              This is it, folks. The year 2014 is over and day after tomorrow we will be saying
+              <strong>
+               hello
+              </strong>
+              to 2015. So how was the year 2014 in the
+              <strong>
+               world
+              </strong>
+              of technology? Incremental is one word that summarizes the year. We got some …
+             </span>
+             <span class="sn_ST">
+              <cite class="sn_src">
+               India Today
+              </cite>
+              ·
+              <span class="sn_tm">
+               29-12-2014
+              </span>
+             </span>
+            </div>
+           </div>
+          </div>
+          <div class="sn_r">
+           <div class="newstitle">
+            <a h="ID=news,5079.1" href="http://www.andhranews.net/Intl/Web/23-66.asp" target="_blank">
+             New Search App: Goodbye Paper Flyers -
+             <strong>
+              hello
+             </strong>
+             Flyer App
+            </a>
+           </div>
+           <div class="sn_txt">
+            <div class="sn_oi">
+             <span class="sn_snip">
+              The "Flyer App" is here to solve exactly this problem: Suitable information from all over the
+              <strong>
+               world
+              </strong>
+              , on a vast range of topics, precisely when you need it, all in one compact app. Quickly and easily search for something or browse in clearly arranged ...
+             </span>
+             <span class="sn_ST">
+              <cite class="sn_src">
+               Andhra News
+              </cite>
+              ·
+              <span class="sn_tm">
+               20-12-2014
+              </span>
+             </span>
+            </div>
+           </div>
+          </div>
+          <div class="RelatedSearchesAndActions">
+           <ul class="actions">
+            <li class="actionsTxt">
+             actions
+            </li>
+            <li>
+             <span class="RssIcon">
+             </span>
+             <a class="actLnk" h="ID=news,5007.1" href="http://www.bing.com:80/news/search?q=hello+world&amp;format=RSS">
+              Subscribe by RSS
+             </a>
+            </li>
+           </ul>
+          </div>
+         </div>
+         <div class="sb_pag">
+          <h4>
+           Pagination
+          </h4>
+          <ul>
+           <li>
+            <a class="sb_pagS">
+             1
+            </a>
+           </li>
+           <li>
+            <a h="ID=news,5082.1" href="/news/search?q=hello+world&amp;first=11&amp;FORM=PENR">
+             2
+            </a>
+           </li>
+           <li>
+            <a h="ID=news,5083.1" href="/news/search?q=hello+world&amp;first=21&amp;FORM=PENR1">
+             3
+            </a>
+           </li>
+           <li>
+            <a h="ID=news,5084.1" href="/news/search?q=hello+world&amp;first=31&amp;FORM=PENR2">
+             4
+            </a>
+           </li>
+           <li>
+            <a h="ID=news,5085.1" href="/news/search?q=hello+world&amp;first=41&amp;FORM=PENR3">
+             5
+            </a>
+           </li>
+           <li>
+            <a class="sb_pagN" h="ID=news,5086.1" href="/news/search?q=hello+world&amp;first=11&amp;FORM=PONR">
+             <span class="pag_text">
+              Next
+             </span>
+            </a>
+           </li>
+          </ul>
+         </div>
+        </div>
+        <div class="RightRail" id="RightRailResult">
+         <div class="serphide" id="RightRailResultCover">
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="sb_foot">
+     <ul id="sw_footL">
+      <li>
+       <span>
+        © 2015 Microsoft
+       </span>
+       |
+      </li>
+      <li>
+       <a h="ID=FD,72.1" href="http://go.microsoft.com/fwlink/?LinkId=248686&amp;CLCID=4009">
+        Privacy and Cookies
+       </a>
+       |
+      </li>
+      <li>
+       <a h="ID=FD,74.1" href="http://go.microsoft.com/fwlink/?LinkID=246338&amp;CLCID=4009">
+        Legal
+       </a>
+       |
+      </li>
+      <li>
+       <a h="ID=FD,76.1" href="http://go.microsoft.com/?linkid=9844321">
+        Advertise
+       </a>
+       |
+      </li>
+      <li>
+       <a h="ID=FD,78.1" href="http://onlinehelp.microsoft.com/en-IN/bing/ff808523.aspx" id="sb_help" target="_blank">
+        Help
+       </a>
+       |
+      </li>
+      <li>
+       <a href="javascript:;" id="sb_feedback">
+        Feedback
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript">
+   //<![CDATA[
+_G.BST=new Date
+//]]>
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+sj_cook=new function(){var n=this;n.get=function(n,t){var i=_d.cookie.match(new RegExp("\\b"+n+"=[^;]+")),r;return t&&i?(r=i[0].match(new RegExp("\\b"+t+"=([^&]*)")),r?r[1]:null):i?i[0]:null},n.set=function(t,i,r,u,f,e){var c,l=i+"="+r,h=n.get(t),o,s,a;h?(o=n.get(t,i),c=o?h.replace(i+"="+o,l):h+"&"+l):c=t+"="+l,s=location.hostname.match(/([^.]+\.[^.]*)$/),a=e&&e>0?e*6e4:63072e6,_d.cookie=c+(s?";domain="+s[0]:"")+(u?";expires="+new Date(+new Date+Math.min(a,63072e6)).toGMTString():"")+(f?";path="+f:"")}};function sc_bgL(){function c(){function b(){u(h,b),w||(sb_ct(c),u(r,v),t(e,l))}function l(){t(r,v,1),u(e,l),t(h,b)}function v(t){function r(){i.style.backgroundImage="url('"+f.src+"')",i.className+=" sw_imLd",s("onBgSet")}w=1,f.onerror=f.onload=null,t[2]>n.d?(sj_so(i,0),r(),c=sb_st(sj_wf(a.init,i,0,100,10,sc_fadeCb),o)):(r(),sj_so(i,100),sc_fadeCb()),sj_cook.set(n.cN,n.crN,n.hash,0,"/")}var f=new Image,a=sj_fader(),w=0,p=0,c,y;t("onSearch",function(){n.x=!0,f=null,a.stop(),sb_ct(c)}),l(),f.onload=function(){p=sb_gt()-y,s(r,f,p)},y=sb_gt(),f.src=n.url}var n=g_img,i=_ge(n.id),f=sj_evt,t=f.bind,u=f.unbind,s=f.fire,r="onBgLoad",h="onSbBusy",e="onSbIdle",o=typeof n.del!="undefined"?n.del:500;t("onP1",c,1,o)}sc_fadeCb=function(){},sj_evt.bind("onP1",function(){_w.g_img&&g_img.cN||sj_evt.fire("onBgSet")},1);g_img = {url:'/az/hprichbg/rb/PiscataquaRiver_EN-IN1221250009-d.jpg',id:'sw_im',d:'1',cN:'_SS',crN:'nhIm',hash:'09-'};sc_bgL();;var Identity=Identity||{};(function(n,t,i,r,u,f,e,o,s,h){s.fbProfile=function(){var e="FBS",f=n(e,"N"),u=n(e,"FN"),r=n(e,"I"),i=n(e,"IB"),o;return f?(f=t(f),u&&(u=t(u)),r&&(r=t(r)),i&&(i=t(i)),o="/fd/s/a/anon.png",r||(r=o),i||(i=o),u||(u=f),{displayName:f,name:u,img:r,imgL:i,idp:"FB"}):null},s.wlProfile=function(){var u="WLS",r=n(u,"N"),i=n(u,"C");return r&&i&&s.wlImgSm&&s.wlImgLg?{displayName:t(r),name:t(r),img:s.wlImgSm.replace(/\{0\}/g,o(i)),imgL:s.wlImgLg.replace(/\{0\}/g,o(i)),idp:"WL"}:null},s.headerLoginMode=0,s.popupAuthenticate=function(n,t,r){var e,h,u,f;return(e=s.popupLoginUrls)&&(h=e[n]+(t?"&perms="+o(t):"")+(r?"&src="+o(r):""))&&(u=s.pop(h))&&(f=setInterval(function(){u.closed&&(i.fire("id:popup:close"),clearInterval(f))},100))},s.pop=function(n){return f.open(n,"idl","location=no,menubar=no,resizable=no,scrollbars=yes,status=no,titlebar=no,toolbar=no,width=1000,height=620")};var y=0,c=e("id_h"),a=e("id_d"),p=e("id_l"),w=e("hp_sw_hdr"),k=e("id_la"),b="click",l="px",v=function(){if(c&&a)if(w)a.style.top=y+w.clientHeight+l;else{var n=_d.body.clientWidth-c.clientWidth;h?c.style.right=n+l:c.style.left=n+l,h?a.style.right=n+5+l:a.style.left=n+5+l,a.style.top=y+85+l}};i.bind("onP1",function(){setTimeout(function(){c&&p&&(u("FdNetIdentityDropdown_c",1,c,"mouseover",p,b,k,"focus"),r(p,b,function(n){s.hdrClk=n})),r(f,"resize",v),r(f,"scroll",v),i.bind("sw_width:top_changed",function(n){y=n[1],v()},1),c.style.display="block",v()},50)})})(sj_cook.get,decodeURIComponent,sj_evt,sj_be,sj_jb,_w,_ge,encodeURIComponent,Identity,_G.RTL);(function(){if(sj_evt&&Identity){var n=function(){var r=_ge("id_n"),n=_ge("id_p"),u=_ge("id_s"),i,t,e,f;r&&u&&((i=Identity.fbProfile())||(i=Identity.wlProfile())||(i=Identity.twProfile()))?(t=i.displayName,e=i.img,n&&(n.title=t,n.src=e,n.style.display="inline"),t.length>10&&(t=t.substring(0,10).replace(/\s+$/,"")+"…"),r.textContent=t,r.innerText=t,r.style.display="inline",u.style.display="none",i.idp=="WL"&&(f="url(/fd/s/a/anon.png)",n&&(n.style.backgroundImage=f))):r&&u&&(r.style.display="none",n&&(n.style.display="none"),u.style.display="inline")};sj_evt.bind("fb:connected",n,1),sj_evt.bind("wl:auth",n,1),sj_evt.bind("fb:auth",n,1)}})();var Identity = Identity || {};(function(i){i.twProfile = function (){return null;};i.wlImgSm = "http\x3a\x2f\x2fcid-\x7b0\x7d.users.storage.live.com\x2fusers\x2f0x\x7b0\x7d\x2fmyprofile\x2fexpressionprofile\x2fprofilephoto\x3aUserTileStatic\x2fp\x3fck\x3d1\x26ex\x3d720\x26fofoff\x3d1\x26sid\x3d";i.wlImgLg = "http\x3a\x2f\x2fcid-\x7b0\x7d.users.storage.live.com\x2fusers\x2f0x\x7b0\x7d\x2fmyprofile\x2fexpressionprofile\x2fprofilephoto\x3aUserTileMedium\x2fp\x3fck\x3d1\x26ex\x3d720\x26fofoff\x3d1\x26sid\x3d";i.popupLoginUrls ={"WindowsLiveId":"https\x3a\x2f\x2flogin.live.com\x2flogin.srf\x3fwa\x3dwsignin1.0\x26rpsnv\x3d12\x26ct\x3d1420210571\x26rver\x3d6.0.5286.0\x26wp\x3dMBI\x26wreply\x3dhttps\x3a\x252F\x252Fssl.bing.com\x252Fsecure\x252FPassport.aspx\x253Fpopup\x253D1\x26lc\x3d16393\x26id\x3d264960"};})(Identity);;(function(n,t){if(t){var r=!1,i=function(){!r&&(r=!0)&&sj_jb("WindowsLiveConnect_c",1)};n.bind("onP1",function(){var r=setTimeout(i,t);n.bind("fb:connecting",function(){clearTimeout(r),n.bind("fb:connected",i,1)},1)},1)}})(sj_evt,wlc_d);sa_config={"u":"http\x3a\x2f\x2fapi.bing.com\x2fqsonhs.aspx\x3fFORM\x3dASAPIW","r":"AutoSug","lmh":"\x2fprofile\x2fhistory","as":"a","mkt":"en-IN","f":"sb_form","i":"sb_form_q","c":"sw_as","p0":"DN,AN","sid":"BCCC85377ACE4C25BC31DB5DB658C0BE","PT":"Unknown","h":1,"t":1,"eHS":1,"spr":1,"m":8,"ml":45,"d":100};sa_loc={"H_PN":"Popular now","H_AS":"Web results","L_MH":"Manage search history","L_P":"Preferences","L_ADS":"Advanced search"};sj_evt.bind('onP1',function(){sa_DNS=new Image;sa_DNS.src={"url":"http\x3a\x2f\x2fapi.bing.com\x2fqsonhs.aspx\x3fFORM\x3dASAPIW"}.url+'&q='},1,5);function sj_ic(n){var t=sj_ce("style");_d.getElementsByTagName("head")[0].appendChild(t),t.textContent!==undefined?t.textContent=n:t.styleSheet.cssText=n};(function(){_ge("sa_qs").value="bs";var t=sa_config,n=_ge(t.i),i=sj_evt.fire;n.setAttribute("autocomplete","off"),sj_jb.apply(null,[t.r,1,n,"mousedown",n,"keydown"].concat(t.ol?[_w,"load"]:[]))})();var fbpkgiid = fbpkgiid || {};fbpkgiid.page = 'PJ.55';;(function(n,t,i){var r=_ge("sb_feedback");r!==null&&n(r,"click",function(n){t("Feedback/Core",!0),i(n),function r(){var n={page:!0};if(typeof feedback=="undefined"||typeof jQuery=="undefined"){sb_st(r,50);return}feedback.core.load(n)}()})})(sj_be,sj_jb,sj_sp);sj_evt.fire("onHTML");(function(){var n=window,t=document;n.rms||(n.rms=function(){function ft(){var i=arguments,f,n,t,u;if(i.length!=0)if(f=r[c(i[0])],i.length>1)for(n=ht.apply(null,i),t=0;t<n.length;t++)u=n[t],at(u,function(t){return function(){lt(t,n)}}(u));else y(f,function(){p(f)})}function at(i,r){var f,u;if(!i.state){if(i.state=ct,l(i)){r();return}n.ActiveXObject?(f=new Image,f.onload=r,f.onerror=r,f.src=i.url):(u=document.createElement("object"),u.setAttribute("width",0),u.setAttribute("height",0),u.onload=r,u.onerror=r,u.setAttribute("data",i.url),t.body.appendChild(u))}}function lt(n,t){n.state=ut,v(t)}function ot(n,t){y(n,function(n){return function(){p(n,t)}}(n))}function p(n,t){(n.state=h,wt(n),t)&&v(t)}function v(n){for(i=0;i<n.length;i++){var t=n[i];switch(t.state){case ut:ot(t,n);return;case h:continue}return}}function c(n){for(var t in n)return t}function vt(){}function wt(n){for(var t=0;t<n.callbacks.length;t++)n.callbacks[t].dec()}function y(n,i){var r,u;n.state!=tt&&n.state!=h&&(n.state=tt,r=t.createElement("SCRIPT"),r.type="text/javascript",r.onreadystatechange=r.onload=function(){var n=r.readyState;(!n||/loaded|complete/.test(n))&&a(i)},l(n)?(u=n.app?bt:pt,r.text=t.getElementById(u).childNodes[n.pos].text,t.body.appendChild(r),a(i)):(r.src=n.url,t.body.appendChild(r)))}function a(n){n.done||(n.done=!0,n())}function nt(n){return it.call(n)=="[object Function]"}function w(n){return it.call(n)=="[object Array]"}function b(n,t,i){for(var e=[],f=new g(i),u,r=0;r<t.length;r++)u=n[t[r]],u||(u=d(n,t[r])),s(u,f)}function et(){for(var t,f,i,n=0;n<o.length;n++){t=new g(o[n]);for(f in r)s(r[f],t);for(i in u)s(u[i],t)}}function s(n,t){n.callbacks.push(t),t.inc()}function k(n,t){for(var i in n)if(typeof n[i]!=undefined)return d(t,i,n[i])}function d(n,t,i){return n[t]||(n[t]={callbacks:[],onPrefetch:[]},n[t].key=t),t.indexOf(st)==0&&(n[t].app=!0),isNaN(i)?n[t].url=i:n[t].pos=i,n[t]}function ht(){for(var i=[],t,n=0;n<arguments.length;n++)t=c(arguments[n]),i.push(r[t]);return i}function l(n){return!n.url}var rt=[].slice,ct=1,ut=2,tt=3,h=4,st="A:",pt="fRmsDefer",bt="aRmsDefer",r={},u={},o=[],e=[],f=[],it=Object.prototype.toString,dt=function(){var t=arguments,f;if(t.length!=0){if(f=t[t.length-1],t.length==1)nt(f)&&o.push(f);else if(t.length==3){var e=t[0],s=t[1],i=t[2];w(e)&&w(s)&&nt(i)&&(b(r,e,i),b(u,s,i))}return n.rms}},yt=function(){var u=arguments,i,t;for(e.push(u),i=0;i<u.length;i++)t=u[i],k(t,r),t.d&&ft.call(null,t);return n.rms},gt=function(){var i=arguments,t;for(f.push(i),t=0;t<i.length;t++)k(i[t],u);return n.rms},kt=function(){var t,n;for(et(),t=0;t<e.length;t++)ft.apply(null,rt.call(e[t],0));for(n=0;n<f.length;n++)vt.apply(null,rt.call(f[n],0))},g=function(n){var i=0,t=!1;this.inc=function(){t||i++},this.dec=function(){t||(i--,i==0&&(t=!0,n()))}};return{onload:dt,js:yt,start:kt}}())})();sj_evt.bind("onP1",function(){_w.rms.start()},1,50);
+//]]>
+  </script>
+  <script src="/rms/news3S/jc/5bf4329f/d366c110.js?bu=rms+answers+News+Vertical%24domready.source%2cVertical%24newsheader.source%2cVertical%24news3SerpPart.source%2cVertical%24slctrl.source%2cVertical%24makehomepage.source&amp;y" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+_w.rms.js({'A:rms:answers:News:LazyLoadImage':'\/rms\/rms%20answers%20News%20Vertical$LazyLoadImage.source\/jc\/9f0fde33\/ba402f35.js?y'});;
+//]]>
+  </script>
+  <script type="text/javascript">
+   //<![CDATA[
+(function(){function t(){_w.sb_ppCPL||sb_st(function(){si_PP(new Date)},0)}var n=_w.onload||function(){};onload=function(i){_G.BPT=new Date,n(i),t()},_G.HT=new Date})()
+//]]>
+  </script>
+ </body>
+</html>
