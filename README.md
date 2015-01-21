@@ -10,6 +10,7 @@ A Python module to fetch and parse results from different search engines.
 * [Installation](#installation)
 * [Usage](#usage)
 * [Todo](#todo)
+* [Contribution](#contribution)
 
 ## Search engines supported
 
@@ -111,3 +112,6 @@ Prints 10 results from the the first result onwards (ignores the first 0) in the
 
 * Other search engines
 * Images etc.
+
+## Contribution
+Feel free to add any features that you think might be important.
