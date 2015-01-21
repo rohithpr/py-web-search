@@ -114,4 +114,4 @@ Prints 10 results from the the first result onwards (ignores the first 0) in the
 * Images etc.
 
 ## Contribution
-Feel free to add any features that you think might be important.
+Feel free to add any features that you think might be useful.
