@@ -29,8 +29,8 @@ Install using pip:
 
 #### Web search
 ```python
-    from pws.google import Google
-    from pws.bing import Bing
+    from pws import Google
+    from pws import Bing
 
     print(Google.search('hello world', 5, 2))
     print(Bing.search('hello world', 5, 2))
@@ -71,8 +71,8 @@ Prints 5 results from the the third result onwards (ignores the first 2) in the 
 
 #### News search
 ```python
-    from pws.bing import Bing
-    from pws.google import Google
+    from pws import Bing
+    from pws import Google
 
     print(Bing.search_news('github', 10, 0, True, 'h'))
     print(Google.search_news('github', 10, 0, True, 'd'))
