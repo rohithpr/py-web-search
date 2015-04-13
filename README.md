@@ -4,6 +4,8 @@
 
 A Python module to fetch and parse results from different search engines.
 
+#### Warning: Do not make queries rapidly! The servers may block you.
+
 ### Table of Contents
 
 * [Support](#search-engines-supported)
