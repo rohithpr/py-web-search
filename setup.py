@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name = 'py-web-search',
     packages = ['pws'],
-    version = '0.2',
+    version = '0.2.1',
     description = 'A Python module to fetch and parse results from different search engines.',
     author = 'Rohith PR',
     author_email = 'praroh2@gmail.com',
