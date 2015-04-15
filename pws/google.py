@@ -82,12 +82,22 @@ class Google:
         results = Google.scrape_search_result(soup)
         related_queries = Google.scrape_related(soup)
 
+        raw_total_results = soup.find('div', attrs = {'class' : 'sd'}).string
+        total_results = 0
+        for i in raw_total_results:
+            try:
+                temp = int(i)
+                total_results = total_results * 10 + temp
+            except:
+                continue
+
         temp = {'results' : results,
                 'url' : url,
                 'num' : num,
                 'start' : start,
                 'search_engine': 'google',
                 'related_queries' : related_queries,
+                'total_results' : total_results,
         }
         return temp
 
@@ -136,11 +146,21 @@ class Google:
         soup = BeautifulSoup(requests.get(url).text)
         results = Google.scrape_news_result(soup)
 
+        raw_total_results = soup.find('div', attrs = {'class' : 'sd'}).string
+        total_results = 0
+        for i in raw_total_results:
+            try:
+                temp = int(i)
+                total_results = total_results * 10 + temp
+            except:
+                continue
+
         temp = {'results' : results,
                 'url' : url,
                 'num' : num,
                 'start' : start,
                 'search_engine' : 'google',
+                'total_results' : total_results,
         }
         return temp
 

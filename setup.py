@@ -8,7 +8,7 @@ setup(
     author = 'Rohith PR',
     author_email = 'praroh2@gmail.com',
     url = 'https://github.com/rohithpr/py-web-search',
-    download_url = 'https://github.com/rohithpr/py-web-search/tarball/0.2',
+    download_url = 'https://github.com/rohithpr/py-web-search/tarball/0.2.1',
     keywords = ['web search', 'web scraping'],
     classifiers = [
     'Intended Audience :: Developers',
