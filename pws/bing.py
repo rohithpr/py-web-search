@@ -75,7 +75,7 @@ class Bing:
         results = []
         _start = start # Remembers the initial value of start for later use
         _url = None
-        related_queries = None
+        related_queries = []
 
         while len(results) < num:
             if sleep: # Prevents loading too many pages too soon
@@ -87,15 +87,17 @@ class Bing:
             new_results = Bing.scrape_search_result(soup)
             results += new_results
             start += len(new_results)
-
-            if related_queries is None:
-                related_queries = scrape_related(soup)
+            if len(new_results) == 0:
+                break
+            if related_queries == []:
+                related_queries = Bing.scrape_related(soup)
 
         results = results[:num]
 
         temp = {'results' : results,
                 'url' : _url,
-                'num' : num,
+                'expected_num' : num,
+                'received_num' : start,
                 'start' : _start,
                 'search_engine' : 'bing',
                 'related_queries' : related_queries,
