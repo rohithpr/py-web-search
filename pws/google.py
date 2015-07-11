@@ -84,16 +84,18 @@ class Google:
 
         raw_total_results = soup.find('div', attrs = {'class' : 'sd'}).string
         total_results = 0
-        for i in raw_total_results:
-            try:
-                temp = int(i)
-                total_results = total_results * 10 + temp
-            except:
-                continue
+        if raw_total_results is not None:
+            for i in raw_total_results:
+                try:
+                    temp = int(i)
+                    total_results = total_results * 10 + temp
+                except:
+                    continue
 
         temp = {'results' : results,
                 'url' : url,
-                'num' : num,
+                'expected_num' : num,
+                'received_num' : len(results),
                 'start' : start,
                 'search_engine': 'google',
                 'related_queries' : related_queries,
