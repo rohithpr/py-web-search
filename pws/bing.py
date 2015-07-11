@@ -76,6 +76,7 @@ class Bing:
         _start = start # Remembers the initial value of start for later use
         _url = None
         related_queries = []
+        total_results = None
 
         while len(results) < num:
             if sleep: # Prevents loading too many pages too soon
@@ -87,6 +88,16 @@ class Bing:
             new_results = Bing.scrape_search_result(soup)
             results += new_results
             start += len(new_results)
+            if total_results is None:
+                raw_total_results = soup.find('span', attrs = {'class' : 'sb_count'})
+                total_results = 0
+                if raw_total_results is not None:
+                    for i in raw_total_results.string:
+                        try:
+                            temp = int(i)
+                            total_results = total_results * 10 + temp
+                        except:
+                            continue
             if len(new_results) == 0:
                 break
             if related_queries == []:
@@ -101,6 +112,7 @@ class Bing:
                 'start' : _start,
                 'search_engine' : 'bing',
                 'related_queries' : related_queries,
+                'total_results' : total_results,
         }
         return temp
 
