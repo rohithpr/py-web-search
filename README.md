@@ -52,9 +52,11 @@ Prints 5 results from the the third result onwards (ignores the first 2) in the 
 ```
     {
         'url': '...',
-        'num': 5,
+        'expected_num': 5,
+        'received_num' : 5, # There will be a difference in case of insufficient results
         'start': 2,
         'search_engine': 'google',
+        'total_results': ...,
         'results':
         [
             {
@@ -62,7 +64,6 @@ Prints 5 results from the the third result onwards (ignores the first 2) in the 
                 'link_text': '...',
                 'link_info': '...',
                 'related_queries': [...],
-                'total_results': ...,
                 'additional_links':
                 {
                     linktext: link,
