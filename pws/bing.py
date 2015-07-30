@@ -84,7 +84,7 @@ class Bing:
             url = generate_url(query, str(start), recent)
             if _url is None:
                 _url = url # Remembers the first url that is generated
-            soup = BeautifulSoup(requests.get(url).text)
+            soup = BeautifulSoup(requests.get(url).text, "html.parser")
             new_results = Bing.scrape_search_result(soup)
             results += new_results
             start += len(new_results)
@@ -167,7 +167,7 @@ class Bing:
             url = generate_news_url(query, str(start), recent)
             if _url is None:
                 _url = url # Remembers the first url that is generated
-            soup = BeautifulSoup(requests.get(url).text)
+            soup = BeautifulSoup(requests.get(url).text, "html.parser")
             new_results = Bing.scrape_news_result(soup)
             results += new_results
             start += len(new_results)
