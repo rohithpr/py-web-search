@@ -1,5 +1,8 @@
 from bs4 import BeautifulSoup
-from html.parser import HTMLParser
+try:
+    from html.parser import HTMLParser
+except ImportError:
+    from HTMLParser import HTMLParser
 from time import sleep as wait
 import re
 import requests
