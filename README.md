@@ -45,7 +45,7 @@ Install using pip:
     # query: Required. The keyword that will be searched.
     # num: Default 10. The number of results returned.
     # start: Default 0. The number of top results that are to be ignored.
-	# domain: Default ".com" For local results (ONLY FOR GOOGLE SEARCH) 
+    # domain: Default ".com" For local results (ONLY FOR GOOGLE SEARCH) 
     # sleep: Default True. If True, the program will wait for a second, when applicable, to avoid overwhelming the servers.
     # recent: Default None. The following values are allowed: 'h': hour, 'd': day, 'w': week, 'm': month and 'y': year.(Buggy)
 ```
@@ -90,7 +90,7 @@ Prints 5 results from the the third result onwards (ignores the first 2) in the 
     # query: Required. The keyword that will be searched.
     # num: Default 10. The number of results returned.
     # start: Default 0. The number of top results that are to be ignored.
-	# domain: Default ".com" For local results (ONLY FOR GOOGLE SEARCH) 
+    # domain: Default ".com" For local results (ONLY FOR GOOGLE SEARCH) 
     # sleep: Default True. If True, the program will wait for a second, when applicable, to avoid overwhelming the servers.
     # recent: Default None. The following values are allowed: 'h': hour, 'd': day, 'w': week, 'm': month and 'y': year.(Buggy)
 ```
