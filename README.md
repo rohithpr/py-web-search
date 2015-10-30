@@ -37,7 +37,7 @@ Install using pip:
     from pws import Google
     from pws import Bing
 
-    print(Google.search('hello world', 5, 2))
+    print(Google.search('hello world', 5, 2, ".es"))
     print(Bing.search('hello world', 5, 2))
     
     # Arguments:
@@ -45,6 +45,7 @@ Install using pip:
     # query: Required. The keyword that will be searched.
     # num: Default 10. The number of results returned.
     # start: Default 0. The number of top results that are to be ignored.
+	# domain: Default ".com" For local results (ONLY FOR GOOGLE SEARCH) 
     # sleep: Default True. If True, the program will wait for a second, when applicable, to avoid overwhelming the servers.
     # recent: Default None. The following values are allowed: 'h': hour, 'd': day, 'w': week, 'm': month and 'y': year.(Buggy)
 ```
@@ -82,13 +83,14 @@ Prints 5 results from the the third result onwards (ignores the first 2) in the 
     from pws import Google
 
     print(Bing.search_news('github', 10, 0, True, 'h'))
-    print(Google.search_news('github', 10, 0, True, 'd'))
+    print(Google.search_news('github', 10, 0, ".br", True, 'd'))
     
     # Arguments:
     # search_news(query, num, start, sleep, recent)
     # query: Required. The keyword that will be searched.
     # num: Default 10. The number of results returned.
     # start: Default 0. The number of top results that are to be ignored.
+	# domain: Default ".com" For local results (ONLY FOR GOOGLE SEARCH) 
     # sleep: Default True. If True, the program will wait for a second, when applicable, to avoid overwhelming the servers.
     # recent: Default None. The following values are allowed: 'h': hour, 'd': day, 'w': week, 'm': month and 'y': year.(Buggy)
 ```
