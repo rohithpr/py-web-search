@@ -24,11 +24,13 @@ Use the [search-api](https://github.com/rohithpr/search-api) to get results in J
 
 ## Installation
 
-Needs Python3.
+Python3:
 Install using pip:
 ```
     pip install py-web-search
 ```
+
+Python2: Not available on PyPI at the moment. You can download this repository and set it up manually.
 
 ## Usage
 

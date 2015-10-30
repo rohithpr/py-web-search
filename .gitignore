@@ -43,3 +43,6 @@ coverage.xml
 docs/_build/
 # PyBuilder
 target/
+
+.pypirc
+venv*/
