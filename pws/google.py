@@ -34,7 +34,7 @@ def strip_tags(html):
 ##################################################
 
 # https://www.google.com/search?q=hello+world&num=3&start=0
-def generate_url(query, num, start,domain, recent):
+def generate_url(query, num, start, recent, domain):
     """(str, str, str) -> str
     A url in the required format is generated.
     """
@@ -51,7 +51,7 @@ def generate_url(query, num, start,domain, recent):
 # 1 week:    &tbs=qdr:w
 # 1 month:   &tbs=qdr:m
 # 1 year:    &tbs=qdr:y
-def generate_news_url(query, num, start,domain, recent):
+def generate_news_url(query, num, start, recent, domain):
     query = '+'.join(query.split())
     url = 'https://www.google' + domain +'/search?q=' + query + '&num=' + num + '&start=' + start
     url += '&tbm=nws#q=' + query + '&tbas=0&tbs=sbd:1&tbm=nws'
@@ -77,10 +77,10 @@ def try_cast_int(s):
 
 class Google:
     @staticmethod
-    def search(query, num=10, start=0,domain=".com", sleep=True, recent=None):
+    def search(query, num=10, start=0, sleep=True, recent=None,domain=".com"):
         if sleep:
             wait(1)
-        url = generate_url(query, str(num), str(start), domain, recent)
+        url = generate_url(query, str(num), str(start), recent, domain)
         soup = BeautifulSoup(requests.get(url).text, "html.parser")
         results = Google.scrape_search_result(soup)
         related_queries = Google.scrape_related(soup)
@@ -144,7 +144,7 @@ class Google:
         return related_queries
 
     @staticmethod
-    def search_news(query, num=10, start=0, domain=".com",sleep=True, recent=None):
+    def search_news(query, num=10, start=0,sleep=True, recent=None, domain=".com"):
         if sleep:
             wait(1)
         url = generate_news_url(query, str(num), str(start),domain, recent)
