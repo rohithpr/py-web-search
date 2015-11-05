@@ -7,7 +7,7 @@ A Python module to fetch and parse results from different search engines.
 #### Warning: Do not make queries rapidly! The servers may block you.
 
 ### Related project
-Use the [search-api](https://github.com/rohithpr/search-api) to get results in JSON format using http requests. (Does not need python)
+Use the [search-api](https://github.com/rohithpr/search-api) to get results in JSON format using http requests. (Does not need Python)
 
 ### Table of Contents
 
