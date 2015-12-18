@@ -37,14 +37,16 @@ def strip_tags(html):
 ##################################################
 
 # https://www.google.com/search?q=hello+world&num=3&start=0
-def generate_url(query, num, start, recent, domain):
+def generate_url(query, num, start, recent, country_code):
     """(str, str, str) -> str
     A url in the required format is generated.
     """
     query = '+'.join(query.split())
-    url = 'https://www.google' + domain +'/search?q=' + query + '&num=' + num + '&start=' + start
+    url = 'https://www.google.com/search?q=' + query + '&num=' + num + '&start=' + start
     if recent in ['h', 'd', 'w', 'm', 'y']:
         url += '&tbs=qdr:' + recent
+    if country_code is not None:
+        url += '&gl=' + country_code
     return url
 
 # Sortbydate: tbs=sbd:1
@@ -54,12 +56,14 @@ def generate_url(query, num, start, recent, domain):
 # 1 week:    &tbs=qdr:w
 # 1 month:   &tbs=qdr:m
 # 1 year:    &tbs=qdr:y
-def generate_news_url(query, num, start, recent, domain):
+def generate_news_url(query, num, start, recent, country_code):
     query = '+'.join(query.split())
-    url = 'https://www.google' + domain +'/search?q=' + query + '&num=' + num + '&start=' + start
+    url = 'https://www.google.com/search?q=' + query + '&num=' + num + '&start=' + start
     url += '&tbm=nws#q=' + query + '&tbas=0&tbs=sbd:1&tbm=nws'
     if recent in ['h', 'd', 'w', 'm', 'y']:
         url += '&tbs=qdr:' + recent
+    if country_code is not None:
+        url += '&gl=' + country_code
     return url
 
 def try_cast_int(s):
@@ -80,10 +84,10 @@ def try_cast_int(s):
 
 class Google:
     @staticmethod
-    def search(query, num=10, start=0, sleep=True, recent=None,domain=".com"):
+    def search(query, num=10, start=0, sleep=True, recent=None, country_code=None):
         if sleep:
             wait(1)
-        url = generate_url(query, str(num), str(start), recent, domain)
+        url = generate_url(query, str(num), str(start), recent, country_code)
         soup = BeautifulSoup(requests.get(url).text, "html.parser")
         results = Google.scrape_search_result(soup)
         related_queries = Google.scrape_related(soup)
@@ -103,9 +107,10 @@ class Google:
                 'expected_num' : num,
                 'received_num' : len(results),
                 'start' : start,
-                'search_engine': 'google' + domain,
+                'search_engine': 'google',
                 'related_queries' : related_queries,
                 'total_results' : total_results,
+                'country_code': country_code,
         }
         return temp
 
@@ -147,10 +152,10 @@ class Google:
         return related_queries
 
     @staticmethod
-    def search_news(query, num=10, start=0,sleep=True, recent=None, domain=".com"):
+    def search_news(query, num=10, start=0,sleep=True, recent=None, country_code=None):
         if sleep:
             wait(1)
-        url = generate_news_url(query, str(num), str(start),domain, recent)
+        url = generate_news_url(query, str(num), str(start), country_code, recent)
         soup = BeautifulSoup(requests.get(url).text, "html.parser")
         results = Google.scrape_news_result(soup)
 
@@ -167,8 +172,9 @@ class Google:
                 'url' : url,
                 'num' : num,
                 'start' : start,
-                'search_engine' : 'google' + domain,
+                'search_engine' : 'google',
                 'total_results' : total_results,
+                'country_code': country_code,
         }
         return temp
 

@@ -38,7 +38,7 @@ def strip_tags(html):
 
 # Best: http://www.bing.com/search?q=hello+world&first=9
 # Recent: http://www.bing.com/search?q=hello+world&filters=ex1%3a%22ez1%22
-def generate_url(query, first, recent):
+def generate_url(query, first, recent, country_code):
     """(str, str) -> str
     A url in the required format is generated.
     """
@@ -46,11 +46,13 @@ def generate_url(query, first, recent):
     url = 'http://www.bing.com/search?q=' + query + '&first=' + first
     if recent in ['h', 'd', 'w', 'm', 'y']: # A True/False would be enough. This is just to maintain consistancy with google.
         url = url + '&filters=ex1%3a%22ez1%22'
+    if country_code is not None:
+        url += '&cc=' + country_code
     return url
 
 # Best: http://www.bing.com/news/search?q=hello+world&first=11
 # Recent: http://www.bing.com/news/search?q=hello+world&qft=sortbydate%3d%221%22
-def generate_news_url(query, first, recent):
+def generate_news_url(query, first, recent, country_code):
     """(str, str) -> str
     A url in the required format is generated.
     """
@@ -58,6 +60,8 @@ def generate_news_url(query, first, recent):
     url = 'http://www.bing.com/news/search?q=' + query + '&first' + first
     if recent in ['h', 'd', 'w', 'm', 'y']: # A True/False would be enough. This is just to maintain consistancy with google.
         url = url + '&qft=sortbydate%3d%221%22'
+    if country_code is not None:
+        url += '&cc=' + country_code
     return url
 
 def try_cast_int(s):
@@ -77,7 +81,7 @@ def try_cast_int(s):
 
 class Bing:
     @staticmethod
-    def search(query, num=10, start=0, sleep=True, recent=None):
+    def search(query, num=10, start=0, sleep=True, recent=None, country_code=None):
         results = []
         _start = start # Remembers the initial value of start for later use
         _url = None
@@ -87,7 +91,7 @@ class Bing:
         while len(results) < num:
             if sleep: # Prevents loading too many pages too soon
                 wait(1)
-            url = generate_url(query, str(start), recent)
+            url = generate_url(query, str(start), recent, country_code)
             if _url is None:
                 _url = url # Remembers the first url that is generated
             soup = BeautifulSoup(requests.get(url).text, "html.parser")
@@ -119,6 +123,7 @@ class Bing:
                 'search_engine' : 'bing',
                 'related_queries' : related_queries,
                 'total_results' : total_results,
+                'country_code': country_code,
         }
         return temp
 
@@ -163,14 +168,14 @@ class Bing:
         return results
 
     @staticmethod
-    def search_news(query, num=10, start=0, sleep=True, recent=None):
+    def search_news(query, num=10, start=0, sleep=True, recent=None, country_code=None):
         results = []
         _start = start # Remembers the initial value of start for later use
         _url = None
         while len(results) < num:
             if sleep: # Prevents loading too many pages too soon
                 wait(1)
-            url = generate_news_url(query, str(start), recent)
+            url = generate_news_url(query, str(start), recent, country_code)
             if _url is None:
                 _url = url # Remembers the first url that is generated
             soup = BeautifulSoup(requests.get(url).text, "html.parser")
@@ -184,6 +189,7 @@ class Bing:
                 'num' : num,
                 'start' : _start,
                 'search_engine' : 'bing',
+                'country_code': country_code,
         }
         return temp
 

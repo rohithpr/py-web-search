@@ -39,7 +39,7 @@ Python2: Not available on PyPI at the moment. You can download this repository a
     from pws import Google
     from pws import Bing
 
-    print(Google.search('hello world', 5, 2, ".es"))
+    print(Google.search(query='hello world', num=5, start=2, country_code="es"))
     print(Bing.search('hello world', 5, 2))
     
     # Arguments:
@@ -49,7 +49,7 @@ Python2: Not available on PyPI at the moment. You can download this repository a
     # start: Default 0. The number of top results that are to be ignored.
     # sleep: Default True. If True, the program will wait for a second, when applicable, to avoid overwhelming the servers.
     # recent: Default None. The following values are allowed: 'h': hour, 'd': day, 'w': week, 'm': month and 'y': year.(Buggy)
-    # domain: Default ".com" For local results (ONLY FOR GOOGLE SEARCH) 
+    # country_code: For local results.
 ```
 Prints 5 results from the the third result onwards (ignores the first 2) in the following format.
 
@@ -84,8 +84,8 @@ Prints 5 results from the the third result onwards (ignores the first 2) in the 
     from pws import Bing
     from pws import Google
 
-    print(Bing.search_news('github', 10, 0, True, 'h'))
-    print(Google.search_news('github', 10, 0, ".br", True, 'd'))
+    print(Bing.search_news(query='github', 10, 0, True, 'h'))
+    print(Google.search_news('github', 10, 0, True, 'd', "es"))
     
     # Arguments:
     # search_news(query, num, start, sleep, recent)
@@ -94,7 +94,7 @@ Prints 5 results from the the third result onwards (ignores the first 2) in the 
     # start: Default 0. The number of top results that are to be ignored.
     # sleep: Default True. If True, the program will wait for a second, when applicable, to avoid overwhelming the servers.
     # recent: Default None. The following values are allowed: 'h': hour, 'd': day, 'w': week, 'm': month and 'y': year.(Buggy)
-    # domain: Default ".com" For local results (ONLY FOR GOOGLE SEARCH) 
+    # country_code: For local results. 
 ```
 Prints 10 results from the the first result onwards (ignores the first 0) in the following format.
 
