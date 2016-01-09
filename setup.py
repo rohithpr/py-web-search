@@ -3,12 +3,12 @@ from distutils.core import setup
 setup(
     name = 'py-web-search',
     packages = ['pws'],
-    version = '0.2.3',
+    version = '0.2.4',
     description = 'A Python module to fetch and parse results from different search engines.',
     author = 'Rohith PR',
     author_email = 'praroh2@gmail.com',
     url = 'https://github.com/rohithpr/py-web-search',
-    download_url = 'https://github.com/rohithpr/py-web-search/tarball/0.2.3',
+    download_url = 'https://github.com/rohithpr/py-web-search/tarball/0.2.4',
     keywords = ['web search', 'web scraping'],
     classifiers = [
     'Intended Audience :: Developers',
