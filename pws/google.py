@@ -152,11 +152,11 @@ class Google:
         return related_queries
 
     @staticmethod
-    def search_news(query, num=10, start=0,sleep=True, recent=None, country_code=None):
+    def search_news(query, num=10, start=0,sleep=True, recent=None, country_code=None, proxies=None):
         if sleep:
             wait(1)
         url = generate_news_url(query, str(num), str(start), country_code, recent)
-        soup = BeautifulSoup(requests.get(url).text, "html.parser")
+        soup = BeautifulSoup(requests.get(url,proxies).text, "html.parser")
         results = Google.scrape_news_result(soup)
 
         raw_total_results = soup.find('div', attrs = {'class' : 'sd'}).string
@@ -180,7 +180,7 @@ class Google:
 
     @staticmethod
     def scrape_news_result(soup):
-        raw_results = soup.find_all('li', attrs = {'class' : 'g'})
+        raw_results = soup.find_all('div', attrs = {'class' : 'g'})
         results = []
 
         for result in raw_results:
