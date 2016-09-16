@@ -155,7 +155,7 @@ class Google:
     def search_news(query, num=10, start=0,sleep=True, recent=None, country_code=None, proxies=None):
         if sleep:
             wait(1)
-        url = generate_news_url(query, str(num), str(start), country_code, recent)
+        url = generate_news_url(query, str(num), str(start), recent, country_code)
         soup = BeautifulSoup(requests.get(url,proxies).text, "html.parser")
         results = Google.scrape_news_result(soup)
 
