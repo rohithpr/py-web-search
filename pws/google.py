@@ -116,7 +116,7 @@ class Google:
 
     @staticmethod
     def scrape_search_result(soup):
-        raw_results = soup.find_all('li', attrs = {'class' : 'g'})
+        raw_results = soup.find_all('div', attrs = {'class' : 'g'})
         results = []
         
         for result in raw_results:
