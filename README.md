@@ -1,5 +1,7 @@
 # py-web-search
 
+## NOTE: This project is not being maintained anymore.
+
 [![Latest Version](https://badge.fury.io/py/py-web-search.svg)](http://badge.fury.io/py/py-web-search)[![Join the chat at https://gitter.im/rohithpr/py-web-search](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rohithpr/py-web-search?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A Python module to fetch and parse results from different search engines.
